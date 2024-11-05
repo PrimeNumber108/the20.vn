@@ -8,7 +8,7 @@ import Copyright from "./Copyright";
 
 const Footer = () => {
   return (
-    <div className="pt-12 pb-5 flex-center">
+    <div className="pt-12 pb-5 flex-center bg-[#1A1A1A]">
       <div className="page-layout grid-layout">
         <div className="col-span-2">
           <Link href="/">

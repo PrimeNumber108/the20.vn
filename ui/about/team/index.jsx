@@ -9,7 +9,7 @@ const TEAMS = ["team1", "team2", "team3", "team4"];
 const Team = () => {
   const t = useTranslations("about.team");
   return (
-    <div className="overflow-hidden text-black bg-white flex-center">
+    <div className="overflow-hidden text-black bg-white rounded-[12px] flex-center">
       <div className="relative py-12 page-layout flex flex-col gap-[60px]">
         <div className="absolute inset-0">
           <TeamBackground />

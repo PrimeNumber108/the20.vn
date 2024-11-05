@@ -2,6 +2,8 @@ import React from "react";
 import Intro from "./Intro";
 import AboutSection from "./AboutSection";
 import Team from "./team";
+import Product from "./product";
+import Partner from "./partner";
 
 const About = () => {
   return (
@@ -9,6 +11,8 @@ const About = () => {
       <Intro />
       <AboutSection />
       <Team />
+      <Product />
+      <Partner />
     </div>
   );
 };

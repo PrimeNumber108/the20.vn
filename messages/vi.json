@@ -110,6 +110,14 @@
         "name": "Phòng Thu mua - Kho vận",
         "desc": "Với quy trình làm việc chặt chẽ và đội ngũ chuyên nghiệp, phòng Thu Mua luôn tìm kiếm và lựa chọn những sản phẩm chất lượng cao từ các nhà cung cấp uy tín."
       }
+    },
+    "product": {
+      "breadcrumb": "SẢN PHẨM CỦA CHÚNG TÔI",
+      "title": "Chúng tôi có sản phẩm nhãn hiệu riêng của mình"
+    },
+    "partner": {
+      "breadcrumb": "ĐỐI TÁC CỦA CHÚNG TÔI",
+      "title": "Chúng tôi cũng hợp tác với các sản phẩm từ các công ty vừa và nhỏ, các công ty khởi nghiệp cũng như các thương hiệu nổi tiếng như Estee Lauder, Mistine, Dior, MAC, v.v."
     }
   }
 }
