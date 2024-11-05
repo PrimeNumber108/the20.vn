@@ -1,0 +1,45 @@
+{
+  "general": {
+    "common": {
+      "home": "Home",
+      "about": "About Us",
+      "recruitment": "Recruitment",
+      "contact": "Contact Us"
+    }
+  },
+  "home": {
+    "introduction": {
+      "companyName": "JOINT STOCK COMPANY",
+      "companyDesc": "At The 20, we are committed to bringing the best product and service values ​​to customers, both domestic and foreign. With a team of professional consultants, we are always ready to accompany you so you can confidently shine every day.",
+      "history": {
+        "breadcrumb": "Lịch sử hình thành The20",
+        "customerFocus": "Khách hàng là trung tâm của mọi giá trị",
+        "establishment": "Ra đời từ năm 2018, The20 đã trở thành một trong những doanh nghiệp bán lẻ mỹ phẩm phát triển nhanh nhất Việt Nam.",
+        "milestones": "Với hơn 1 triệu sản phẩm được bán ra, chất lượng cao và dịch vụ chuyên nghiệp, chúng tôi tự hào là người bạn đồng hành tin cậy của mọi khách hàng.",
+        "timeline": [
+          {
+            "title": "Bước chân đầu tiên vững chắc",
+            "description": [
+              "Ra đời và phát triển nhanh chóng: Nhờ tầm nhìn đúng đắn và đội ngũ trẻ trung, đầy nhiệt huyết, công ty đã nhanh chóng khẳng định vị thế trên thị trường Việt Nam.",
+              "Tập trung vào thị trường nội địa: Các sản phẩm đầu tiên được ra mắt và nhận được sự đón nhận tích cực từ người tiêu dùng Việt."
+            ]
+          },
+          {
+            "title": "Mở rộng thị trường và đa dạng hóa sản phẩm",
+            "description": [
+              "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới.",
+              "Phát triển dòng sản phẩm skincare và chăm sóc tóc: Đáp ứng nhu cầu đa dạng của khách hàng, công ty không ngừng nghiên cứu và cho ra mắt các sản phẩm mới, chất lượng cao."
+            ]
+          },
+          {
+            "title": "Tích hợp công nghệ, dẫn đầu xu hướng thương mại điện tử",
+            "description": [
+              "Thành công vang dội với livestream: Các buổi livestream bán hàng đạt doanh thu khủng, khẳng định sức hút của thương hiệu, được nhiều beauty blogger, KOLs nổi tiếng như Ngọc Trinh, Chảnh Beauty, Hannaholala,... tin dùng và giới thiệu.",
+              "Chiếm lĩnh thị phần đáng kể: Với hơn 100.000 sản phẩm được bán ra mỗi tháng, công ty đã chiếm 28,5% tổng doanh thu ngành mỹ phẩm Việt Nam, trở thành một trong những thương hiệu mỹ phẩm hàng đầu."
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

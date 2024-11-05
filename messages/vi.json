@@ -1,0 +1,115 @@
+{
+  "general": {
+    "common": {
+      "home": "Trang chủ",
+      "about": "Về chúng tôi",
+      "recruitment": "Tuyển dụng",
+      "contact": "Liên hệ",
+      "introduction": "Giới thiệu",
+      "now": "Nay"
+    }
+  },
+  "contact": {
+    "contact": "Liên hệ",
+    "companyName": "Công ty cổ phần The 20",
+    "headquarters": "Trụ sở chính",
+    "headquartersDetail": "281/15 Bình Lợi, Phường 13, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
+    "businessRegistrationNumber": "Mã số doanh nghiệp",
+    "dateOfOperation": "Ngày hoạt động"
+  },
+  "home": {
+    "introduction": {
+      "companyName": "CÔNG TY CỔ PHẦN  THƯƠNG MẠI BÁN LẺ",
+      "companyDesc": "Tại The20, chúng tôi cam kết mang đến những giá trị sản phẩm và dịch vụ tốt nhất cho khách hàng, cả trong và ngoài nước. Với đội ngũ tư vấn chuyên nghiệp, chúng tôi luôn sẵn sàng đồng hành cùng bạn để bạn tự tin tỏa sáng mỗi ngày."
+    },
+    "history": {
+      "breadcrumb": "Lịch sử hình thành The20",
+      "customerFocus": "Khách hàng là trung tâm của <span>mọi giá trị</span>",
+      "establishment": "Ra đời từ năm 2018, The20 đã trở thành một trong những doanh nghiệp bán lẻ mỹ phẩm phát triển nhanh nhất Việt Nam.",
+      "milestones": "Với hơn 1 triệu sản phẩm được bán ra, chất lượng cao và dịch vụ chuyên nghiệp, chúng tôi tự hào là người bạn đồng hành tin cậy của mọi khách hàng."
+    },
+    "timeline": {
+      "period1": {
+        "title": "Bước chân đầu tiên vững chắc",
+        "description1": "Ra đời và phát triển nhanh chóng: Nhờ tầm nhìn đúng đắn và đội ngũ trẻ trung, đầy nhiệt huyết, công ty đã nhanh chóng khẳng định vị thế trên thị trường Việt Nam.",
+        "description2": "Tập trung vào thị trường nội địa: Các sản phẩm đầu tiên được ra mắt và nhận được sự đón nhận tích cực từ người tiêu dùng Việt."
+      },
+      "period2": {
+        "title": "Mở rộng thị trường và đa dạng hóa sản phẩm",
+        "description1": "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới.",
+        "description2": "Phát triển dòng sản phẩm skincare và chăm sóc tóc: Đáp ứng nhu cầu đa dạng của khách hàng, công ty không ngừng nghiên cứu và cho ra mắt các sản phẩm mới, chất lượng cao."
+      },
+      "period3": {
+        "title": "Tích hợp công nghệ, dẫn đầu xu hướng thương mại điện tử",
+        "description1": "Thành công vang dội với livestream: Các buổi livestream bán hàng đạt doanh thu khủng, khẳng định sức hút của thương hiệu, được nhiều beauty blogger, KOLs nổi tiếng như Ngọc Trinh, Chảnh Beauty, Hannaholala,... tin dùng và giới thiệu.",
+        "description2": "Chiếm lĩnh thị phần đáng kể: Với hơn 100.000 sản phẩm được bán ra mỗi tháng, công ty đã chiếm 28,5% tổng doanh thu ngành mỹ phẩm Việt Nam, trở thành một trong những thương hiệu mỹ phẩm hàng đầu."
+      }
+    },
+    "brand": {
+      "brandIdentity": "Bản sắc thương hiệu",
+      "title": "Vẻ đẹp hoàn hảo, <span>chất lượng</span> <span>vượt trội.</span>",
+      "mission": "Sứ mệnh",
+      "missionDesc": "Với niềm tin mang đến vẻ đẹp toàn diện nhất cho người tiêu dùng, công ty luôn nghiên cứu và tìm ra những sản phẩm phù hợp và lành tính nhất. The20 chúng tôi muốn trở thành một người bạn đồng hành cùng người tiêu dùng trong con đường chăm sóc và làm đẹp của họ.",
+      "vision": "Tầm nhìn",
+      "visionDesc": "The20 hướng đến mục tiêu cung cấp những sản phẩm và dịch vụ có chất lượng với giá trị vượt trội, không ngừng nỗ lực trở thành công ty dẫn đầu về thị phần, kiến tạo thêm nhiều giá trị cốt lõi bền vững. Điều này nhằm mang lại những lợi ích cho khách hàng, đội ngũ nhân viên và cổ đông của tập đoàn công ty."
+    },
+    "slide": {
+      "content1": "Nguyên tắc cơ bản của công ty chính là hướng tới một xã hội đổi mới, ổn định và thịnh vượng thông qua hoạt động bán lẻ.",
+      "content2": "Với trách nhiệm đó, công ty The20 đã có được lòng tin của khách hàng cũng như mở rộng hoạt động kinh doanh không chỉ tại Việt Nam mà còn tại các quốc gia khác trong một khoảng thời gian dài."
+    },
+    "coreValues": {
+      "coreValues": "Giá trị cốt lõi",
+      "value1": {
+        "index": "01.",
+        "title": "Thái độ",
+        "desc": "The20 chân thành, cởi mở, thẳng thắn để xây dựng sự tin tưởng của Khách hàng."
+      },
+      "value2": {
+        "index": "02.",
+        "title": "Trách nhiệm",
+        "desc": "The20 hoàn toàn chịu trách nhiệm về những công việc của mình."
+      },
+      "value3": {
+        "index": "03.",
+        "title": "Chất lượng",
+        "desc": "The20 mang đến Dịch vụ, giải pháp tối ưu và luôn phát triển không ngừng dựa trên sự hài lòng của khách hàng."
+      },
+      "value4": {
+        "index": "04.",
+        "title": "Uy tín",
+        "desc": "The20 là đối tác tin cậy của doanh nghiệp và ứng viên."
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "Chào mừng bạn đến với",
+      "desc": "Nơi mang đến vẻ đẹp tự nhiên và sự tự tin cho bạn mỗi ngày."
+    },
+    "about": {
+      "name": "Về chúng tôi",
+      "title": "Chúng tôi tự hào là nhà bán lẻ mỹ phẩm hàng đầu, cung cấp các sản phẩm chất lượng cao từ những thương hiệu <span>nổi tiếng trên toàn thế giới.</span>",
+      "desc": "Thông qua sự phối hợp hiệu quả giữa các đội ngũ có chuyên môn, kiến thức sâu rộng về thị trường, The20 tự hào mang đến trải nghiệm tốt nhất cho khách hàng"
+    },
+    "team": {
+      "breadcrumb": "Đội ngũ THE20",
+      "title": "Đội ngũ nhân viên tâm huyết,<span>giàu kinh nghiệm</span>",
+      "team1": {
+        "name": "Phòng Kinh doanh",
+        "desc": "Phòng Kinh Doanh của THE20 cam kết mang đến các sản phẩm lượng và dịch vụ chuyên nghiệp.<br></br> Phương châm của chúng tôi là \"Khách hàng là trung tâm,\" đảm bảo mang lại giải pháp tối ưu và lợi ích cao nhất cho bạn."
+      },
+      "team2": {
+        "name": "Phòng Marketing",
+        "desc": "Với việc tập trung vào xây dựng hình ảnh thương hiệu mạnh mẽ và kết nối với khách hàng qua các chiến dịch sáng tạo, chúng tôi không ngừng phát triển chiến lược truyền thông phù hợp, giúp sản phẩm đến gần hơn với người tiêu dùng.<br></br>Với đội ngũ trẻ trung, nhiệt huyết, chúng tôi luôn tìm kiếm những ý tưởng đột phá nhằm tạo nên sự khác biệt và nâng cao giá trị thương hiệu."
+      },
+      "team3": {
+        "name": "Phòng Tài chính - Kế toán",
+        "desc": "Đội ngũ của chúng tôi cam kết tuân thủ các quy định và tiêu chuẩn tài chính, hỗ trợ quá trình kinh doanh thông suốt và tối ưu hóa nguồn lực."
+      },
+      "team4": {
+        "name": "Phòng Thu mua - Kho vận",
+        "desc": "Với quy trình làm việc chặt chẽ và đội ngũ chuyên nghiệp, phòng Thu Mua luôn tìm kiếm và lựa chọn những sản phẩm chất lượng cao từ các nhà cung cấp uy tín."
+      }
+    }
+  }
+}
