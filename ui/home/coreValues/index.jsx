@@ -13,18 +13,18 @@ const CoreValues = () => {
         <div className="col-span-3 col-start-2">
           <div className="flex flex-col gap-[60px]">
             <Square width={45} />
-            <p className="text-display-lg !text-[90px]">{t("coreValues")}</p>
+            <p className="text-display-lg !text-[90px]">{t("trans")}</p>
           </div>
         </div>
         <div className="col-span-6 col-start-6 border-y border-y-[#5E5E5E]">
           <div className="flex flex-col divide-y divide-[#5E5E5E]">
-            {VALUES.map((value) => (
-              <div key={`core-value-${value}`} className="py-8">
+            {Array.from({ length: 4 }, (_, i) => (
+              <div key={`core-value-${i}`} className="py-8">
                 <p className="flex gap-5 mb-5 text-heading-xl">
-                  <span>{t(`${value}.index`)}</span>
-                  <span>{t(`${value}.title`)}</span>
+                  <span>{t(`${i}.index`)}</span>
+                  <span>{t(`${i}.title`)}</span>
                 </p>
-                <p className="text-body-lg">{t(`${value}.desc`)}</p>
+                <p className="text-body-lg">{t(`${i}.desc`)}</p>
               </div>
             ))}
           </div>

@@ -1,5 +1,3 @@
-import "./globals.css";
-
-export default async function Layout({ children }) {
+export default function RootLayout({ children }) {
   return children;
 }

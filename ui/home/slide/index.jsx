@@ -1,16 +1,14 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Autoplay } from "swiper/modules";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import ArrowLeftCircle from "@/components/icons/ArrowLeftCircle";
+import ArrowRightCircle from "@/components/icons/ArrowRightCircle";
 
 import "swiper/css";
 import "swiper/css/navigation";
-import ArrowLeft from "@/components/icons/ArrowLeft";
-import ArrowRight from "@/components/icons/ArrowRight";
-
-const CONTENTS = ["content1", "content2"];
 
 const Slide = () => {
   const t = useTranslations("home.slide");
@@ -55,17 +53,17 @@ const Slide = () => {
             onSwiper={(swiper) => setSwiper(swiper)}
             wrapperClass="items-center"
           >
-            {CONTENTS.map((content) => (
-              <SwiperSlide key={`home-slide-${content}`}>
-                <p className="text-center text-heading-xl">{t(content)}</p>
+            {Array.from({ length: 2 }, (_, i) => (
+              <SwiperSlide key={`home-slide-${i}`}>
+                <p className="text-center text-heading-xl">{t(`content.${i}`)}</p>
               </SwiperSlide>
             ))}
           </Swiper>
           <div ref={navigationPrevRef} className="absolute -translate-y-1/2 -left-20 top-1/2">
-            <ArrowLeft width={40} height={40} color="#ffffff" />
+            <ArrowLeftCircle width={40} height={40} color="#ffffff" />
           </div>
           <div ref={navigationNextRef} className="absolute -translate-y-1/2 -right-20 top-1/2">
-            <ArrowRight width={40} height={40} color="#ffffff" />
+            <ArrowRightCircle width={40} height={40} color="#ffffff" />
           </div>
         </div>
       </div>

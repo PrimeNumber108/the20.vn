@@ -9,11 +9,11 @@ const ContactBusiness = () => {
     <div className="flex flex-col gap-5">
       <h2 className="text-heading-sm">{t("companyName")}</h2>
       <p className="text-body-sm">
-        <span className="font-semibold">{t("businessRegistrationNumber")}: </span>
+        <span className="font-semibold">{t("businessInfo.registrationNumber")}: </span>
         <span>0108290839</span>
       </p>
       <p className="text-body-sm">
-        <span className="font-semibold">{t("dateOfOperation")}: </span>
+        <span className="font-semibold">{t("businessInfo.operationDate")}: </span>
         <span>01/06/2018</span>
       </p>
       <div className="flex gap-5">

@@ -7,10 +7,10 @@ const Contact = () => {
 
   return (
     <div className="flex flex-col gap-5">
-      <h2 className="text-heading-sm">{t("contact")}</h2>
+      <h2 className="text-heading-sm">{t("trans")}</h2>
       <p className="text-body-sm">
-        <span className="font-semibold">{t("headquarters")}: </span>
-        <span>{t("headquartersDetail")}</span>
+        <span className="font-semibold">{t("headquarters.trans")}: </span>
+        <span>{t("headquarters.address")}</span>
       </p>
       <p className="text-body-sm">
         <span className="font-semibold">Hotline: </span>

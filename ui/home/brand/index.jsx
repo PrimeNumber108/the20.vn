@@ -11,13 +11,13 @@ const Brand = () => {
         <div className="absolute inset-0">
           <BrandBackground />
         </div>
-        <div className="flex flex-col gap-10 min-w-[412px]">
+        <div className="flex flex-col gap-10 min-w-[412px] border-r border-black">
           <Breadcrumb color="#000000">
-            <p className="text-heading-md">{t("brandIdentity")}</p>
+            <p className="text-heading-md">{t("title")}</p>
           </Breadcrumb>
           <div>
             <p className="text-display-sm">
-              {t.rich("title", {
+              {t.rich("desc", {
                 span: (chunks) => (
                   <>
                     <span className="block w-full italic text-main">{chunks[0]}</span>
@@ -29,12 +29,12 @@ const Brand = () => {
           </div>
         </div>
         <div className="flex flex-col gap-5">
-          <p className="text-heading-lg text-main">{t("mission")}</p>
-          <p className="text-body-md">{t("missionDesc")}</p>
+          <p className="text-heading-lg text-main">{t("mission.title")}</p>
+          <p className="text-body-md">{t("mission.desc")}</p>
         </div>
         <div className="flex flex-col gap-5">
-          <p className="text-heading-lg text-main">{t("vision")}</p>
-          <p className="text-body-md">{t("visionDesc")}</p>
+          <p className="text-heading-lg text-main">{t("vision.title")}</p>
+          <p className="text-body-md">{t("vision.desc")}</p>
         </div>
       </div>
     </div>

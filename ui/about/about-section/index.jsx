@@ -11,7 +11,7 @@ const AboutSection = () => {
         <div className="grid-layout">
           <div className="col-span-10 col-start-2">
             <Breadcrumb classNames={{ square: "bg-tint20" }}>
-              <p className="">{t("name")}</p>
+              <p className="">{t("trans")}</p>
             </Breadcrumb>
             <div className="w-full h-[1px] bg-[#4f4f4f] mt-12 mb-[64px]"></div>
           </div>

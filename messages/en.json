@@ -4,42 +4,350 @@
       "home": "Home",
       "about": "About Us",
       "recruitment": "Recruitment",
-      "contact": "Contact Us"
+      "contact": "Contact Us",
+      "introduction": "Introduction",
+      "present": "Present"
     }
   },
   "home": {
-    "introduction": {
-      "companyName": "JOINT STOCK COMPANY",
-      "companyDesc": "At The 20, we are committed to bringing the best product and service values ​​to customers, both domestic and foreign. With a team of professional consultants, we are always ready to accompany you so you can confidently shine every day.",
-      "history": {
-        "breadcrumb": "Lịch sử hình thành The20",
-        "customerFocus": "Khách hàng là trung tâm của mọi giá trị",
-        "establishment": "Ra đời từ năm 2018, The20 đã trở thành một trong những doanh nghiệp bán lẻ mỹ phẩm phát triển nhanh nhất Việt Nam.",
-        "milestones": "Với hơn 1 triệu sản phẩm được bán ra, chất lượng cao và dịch vụ chuyên nghiệp, chúng tôi tự hào là người bạn đồng hành tin cậy của mọi khách hàng.",
-        "timeline": [
-          {
-            "title": "Bước chân đầu tiên vững chắc",
-            "description": [
-              "Ra đời và phát triển nhanh chóng: Nhờ tầm nhìn đúng đắn và đội ngũ trẻ trung, đầy nhiệt huyết, công ty đã nhanh chóng khẳng định vị thế trên thị trường Việt Nam.",
-              "Tập trung vào thị trường nội địa: Các sản phẩm đầu tiên được ra mắt và nhận được sự đón nhận tích cực từ người tiêu dùng Việt."
-            ]
-          },
-          {
-            "title": "Mở rộng thị trường và đa dạng hóa sản phẩm",
-            "description": [
-              "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới.",
-              "Phát triển dòng sản phẩm skincare và chăm sóc tóc: Đáp ứng nhu cầu đa dạng của khách hàng, công ty không ngừng nghiên cứu và cho ra mắt các sản phẩm mới, chất lượng cao."
-            ]
-          },
-          {
-            "title": "Tích hợp công nghệ, dẫn đầu xu hướng thương mại điện tử",
-            "description": [
-              "Thành công vang dội với livestream: Các buổi livestream bán hàng đạt doanh thu khủng, khẳng định sức hút của thương hiệu, được nhiều beauty blogger, KOLs nổi tiếng như Ngọc Trinh, Chảnh Beauty, Hannaholala,... tin dùng và giới thiệu.",
-              "Chiếm lĩnh thị phần đáng kể: Với hơn 100.000 sản phẩm được bán ra mỗi tháng, công ty đã chiếm 28,5% tổng doanh thu ngành mỹ phẩm Việt Nam, trở thành một trong những thương hiệu mỹ phẩm hàng đầu."
-            ]
-          }
-        ]
+    "intro": {
+      "title": "JOINT STOCK COMPANY",
+      "desc": "At The 20, we are committed to bringing the best product and service values ​​to customers, both domestic and foreign. With a team of professional consultants, we are always ready to accompany you so you can confidently shine every day"
+    },
+    "history": {
+      "breadcrumb": "Welcome to The20",
+      "customerFocus": "Putting Customers At The <span>Center Of Everything</span>",
+      "establishment": "Established in 2018, The20 has become one of the fastest growing cosmetics retail businesses in Vietnam.",
+      "milestones": "With more than 1 million products sold, high quality and professional service, we are proud to be a trusted companion of every customer."
+    },
+    "timeline": {
+      "0": {
+        "title": "Laying the foundation",
+        "desc": {
+          "0": "Emerge and rapidly grow: Born and developed rapidly, thanks to the right vision and a young, enthusiastic team, the company quickly established its position in the Vietnamese market.",
+          "1": "Focusing on the domestic market: The first products were launched and warmly received by Vietnamese consumers."
+        }
+      },
+      "1": {
+        "title": "Market expansion and product diversification",
+        "desc": {
+          "0": "Expanding into international markets: The company began exporting products to countries in the region and around the world, opening up new development opportunities.",
+          "1": "Diversifying product lines: Developing skincare and hair care product lines to meet the diverse needs of customers, the company constantly researches and launches new, high-quality products."
+        }
+      },
+      "2": {
+        "title": "Integrating technology, leading e-commerce trends",
+        "desc": {
+          "0": "Revolutionizing sales with livestreaming: Resounding success with livestream sales sessions achieved huge revenue, affirming the brand's appeal. Trusted and recommended by many famous beauty bloggers and KOLs such as Ngoc Trinh, Chanh Beauty, Hannaholala,...",
+          "1": "Capturing a significant market share: With more than 100,000 products sold each month, the company has accounted for 28.5% of the total revenue of the Vietnamese cosmetics industry, becoming one of the leading cosmetic brands."
+        }
       }
+    },
+    "brand": {
+      "title": "Brand identity",
+      "desc": "Perfect beauty, <span>superior quality.</span>",
+      "mission": {
+        "title": "Mission",
+        "desc": "With the belief of bringing the most comprehensive beauty to consumers, the company always researches and finds the most suitable and benign products. We at The20 want to become a companion with consumers on their path of care and beauty."
+      },
+      "vision": {
+        "title": "Vision",
+        "desc": "The20 is focused on providing top-tier products and services that deliver exceptional value. Our aim is to lead the market while prioritizing sustainability and creating long-term value for our customers, employees, and shareholders."
+      }
+    },
+    "slide": {
+      "content": {
+        "0": "The company's fundamental principle is to aim for an innovative, stable and prosperous society through retail.",
+        "1": "With that responsibility, The20 company has gained the trust of customers as well as expanded its business not only in Vietnam but also in other countries for a long time."
+      }
+    },
+    "coreValues": {
+      "trans": "Core values",
+      "0": {
+        "index": "01.",
+        "title": "Attitude",
+        "desc": "The20 is sincere, open, and straightforward to build customer trust."
+      },
+      "1": {
+        "index": "02.",
+        "title": "Responsibility",
+        "desc": "The20 is fully responsible for its work."
+      },
+      "2": {
+        "index": "03.",
+        "title": "Quality",
+        "desc": "The20 provides optimal services and solutions and is constantly developing based on customer satisfaction."
+      },
+      "3": {
+        "index": "04.",
+        "title": "Reputation",
+        "desc": "The20 is a trusted partner of businesses and candidates."
+      }
+    }
+  },
+  "about": {
+    "intro": {
+      "title": "Welcome to",
+      "desc": "Where we bring you natural beauty and confidence every day."
+    },
+    "about": {
+      "trans": "About us",
+      "title": "We are proud to be a leading cosmetics retailer, offering high-quality products from renowned brands <span>around the world.</span>",
+      "desc": "Through effective collaboration among teams with specialized expertise and deep market knowledge, The20 takes pride in providing the best experience for our customers."
+    },
+    "team": {
+      "breadcrumb": "The THE20 Team",
+      "title": "We’re here to give you the best by our passion and experience.",
+      "0": {
+        "name": "Sales Department",
+        "desc": "The Sales Department of THE20 is committed to providing quality products and professional services.<br></br>We concentrate on \"Customer-Centric,\" ensuring optimal solutions and the highest benefits for you."
+      },
+      "1": {
+        "name": "Marketing Department",
+        "desc": "By focusing on building a strong brand image and connecting with customers through creative campaigns, we continuously develop suitable communication strategies to bring our products closer to consumers.<br></br>Owning a young and passionate team, we always seek innovative ideas to create differentiation and enhance brand value."
+      },
+      "2": {
+        "name": "Finance - Accounting Department",
+        "desc": "Our team is committed to adhering to financial regulations and standards, supporting smooth business operations and optimizing resources."
+      },
+      "3": {
+        "name": "Procurement - Warehouse Department",
+        "desc": "With a well-structured workflow and a professional team, the Procurement Department always seeks and selects high-quality products from reputable suppliers."
+      }
+    },
+    "product": {
+      "breadcrumb": "OUR PRODUCTS",
+      "title": "We have our own trademarked products",
+      "0": {
+        "name": "FEG",
+        "desc": "Nourish your natural beauty, shine from every strand"
+      },
+      "1": {
+        "name": "FEG",
+        "desc": "Feel Confident, Look Your Best"
+      },
+      "2": {
+        "name": "FEG",
+        "desc": "Best-in-Class Grooming."
+      },
+      "3": {
+        "name": "Kasomo",
+        "desc": "Your Hair, Your Way, Naturally"
+      },
+      "4": {
+        "name": "Kasomo",
+        "desc": "Invest in Yourself, Invest in Kasomo"
+      },
+      "5": {
+        "name": "Kasomo",
+        "desc": "The Future of Hair and Beard Care."
+      }
+    },
+    "partner": {
+      "breadcrumb": "OUR PARTNERS",
+      "title": "We also collaborate with products from small and medium sized companies, startups as well as well known brands such as Estee Lauder, Mistine, Dior, MAC, etc."
+    }
+  },
+  "recruitment": {
+    "intro": {
+      "title": "We highly value candidates with strong ethics and a sense of responsibility towards their work.",
+      "highlight": "Benefits of working with us include:"
+    },
+    "benefit": {
+      "title": "We have a young, dynamic, and enthusiastic team that works closely with The20 on the journey to bring perfect beauty to the people of Vietnam. We have set ourselves the mission of providing high-quality products and services, serving as a positive driving force for further development in the future.",
+      "0": {
+        "title": "Income",
+        "desc": "Attractive salary and performance-based bonuses."
+      },
+      "1": {
+        "title": "Training",
+        "desc": "Effective learning processes, diverse materials, and online courses."
+      },
+      "2": {
+        "title": "Flexibility",
+        "desc": "Flexible working hours, unlimited vacations, and paid time off."
+      },
+      "3": {
+        "title": "Benefits",
+        "desc": "Lunch, dinner, and healthy beverages provided at the office."
+      },
+      "4": {
+        "title": "Environment",
+        "desc": "Fun and friendly workplace, on-site games, team outings, company parties, etc."
+      }
+    },
+    "position": {
+      "breadcrumb": "Open Position",
+      "awesomeJobOpportunity": "Amazing Job Opportunity",
+      "workingHours": "Working hours",
+      "simpleRequirements": "Easy Requirements",
+      "amazingBenefits": "Super Attractive Benefits",
+      "viewMore": "View more",
+      "positionDetail": "Recruitment details",
+      "0": {
+        "title": "Page Admin",
+        "details": "<li>Respond to and consult with customers about products, usage before, during, and after sales through online channels.</li><li>Stay updated on promotions and sales programs to provide customers with the most accurate advice.</li>",
+        "timeNote": "(Fixed shifts, shifts to be discussed during the interview)",
+        "times": "<li>8:30 AM - 1:00 PM</li><li>1:00 PM - 9:00 PM</li><li>6:00 PM - 11:00 PM</li><li>1 day off per week (pre-registered with the leader).</li>",
+        "requirements": "<li>English: Good communication and chat skills (equivalent to TOEIC 550+, no certificate required, test will be conducted during the interview).</li><li>Hardworking, responsible, and dedicated to the job.</li><li>Experience: Not required, training provided. However, experience in online sales or cosmetics is a plus.</li>",
+        "benefits": "<li>Base salary: 7,000,000 - 8,000,000 VND + commission.</li><li>Support for lunch/dinner and dessert.</li><li>Annual salary review once a year according to company regulations.</li>"
+      },
+      "1": {
+        "title": "Customer Care evening shift (13:00 - 21:00)",
+        "details": "<li>Consult and answer customer inquiries via hotline numbers.</li><li>Take care of orders through phone calls and messages to ensure successful delivery.</li><li>Verify order information before shipping to customers.</li>",
+        "timeNote": "Afternoon shift from 1:00 PM - 9:00 PM.",
+        "times": "<li>1 day off per week (pre-registered with the leader).</li>",
+        "requirements": "<li>English: Good communication (no certificate required, test during interview).</li><li>Personal laptop required.</li><li>Honest, eager to learn, and a good listener.</li><li>High sense of responsibility and professionalism.</li>",
+        "benefits": "<li>Base salary: 8,000,000 - 9,000,000 VND + performance bonus.</li><li>Support for dinner and dessert.</li><li>Annual salary review according to company policy.</li><li>Holiday, Tet, and birthday bonuses.</li>"
+      },
+      "2": {
+        "title": "Cosmetics, Health Care and Beauty Purchasing Specialist",
+        "details": "<li>Find suppliers with competitive prices and reasonable policies. Negotiate with suppliers on pricing, payment terms, and appropriate discounts for each product line.</li><li>Confirm delivery schedules & monitor the supplier’s shipping process, handling complaints if there are any discrepancies with the goods.</li><li>Monitor payments, maintain good relationships with partners.</li><li>Collect, analyze, and summarize data to develop procurement plans and control information.</li><li>Receive and assess product quality, handle situations where goods don’t match samples, fail to comply with contracts, are damaged, or incorrect in quantity according to company policy.</li><li>Update the Director and related departments on timely changes in product prices and new products.</li><li>Manage all purchasing records, prepare periodic purchasing reports or upon request from superiors.</li>",
+        "timeNote": "",
+        "times": "",
+        "requirements": "<li>Fluent in Chinese.</li><li>English: Good communication and technical skills.</li><li>1-3 years of purchasing experience (in skincare, beauty, cosmetics, health care, or retail companies).</li><li>Knowledge of FIFO, forecasting, and ability to source trading and raw materials in the cosmetics industry.</li><li>QC skills to ensure product quality according to industry standards.</li><li>Experience working in the Chinese or Global market with partner data in those regions.</li><li>Strong verbal and written communication skills, with the ability to negotiate and manage contracts.</li><li>Detail-oriented and meticulous.</li>",
+        "benefits": "<li>Salary: 12,000,000 VND - 15,000,000 VND + Bonus.</li><li>Meals provided at the company.</li><li>Regular salary reviews.</li><li>Work in a friendly, youthful, and dynamic environment.</li><li>Full benefits according to government regulations.</li><li>Leave policies (weekly, monthly).</li>"
+      },
+      "3": {
+        "title": "QC/QA Engineer (Tester)",
+        "details": "<li>Support in developing test tools: Participate in the development and improvement of testing tools to enhance testing efficiency.</li><li>Bug testing and fixing: Conduct product tests, identify, and fix bugs (if any). Work closely with the coding team to handle issues on a daily basis.</li><li>Minimize errors: Actively work to reduce the number of errors as much as possible, ensuring product quality.</li><li>Daily testing process: Every day, test and fix the required features, then monitor product usage. If any bugs are detected, immediately report them to the coding team for quick resolution.</li><li>End-of-day reporting: Summarize all errors from the day, including solutions, and report them to the manager.</li>",
+        "times": "",
+        "requirements": "<li>Proficient in Google Sheets and Excel.</li><li>At least 1 year of experience as a tester.</li>",
+        "benefits": "<li>Salary: 8,000,000 VND - 10,000,000 VND.</li><li>Meals provided at the company.</li><li>Regular salary reviews.</li><li>Work in a friendly, youthful, and dynamic environment.</li><li>Full benefits according to government regulations.</li><li>Leave policies (weekly, monthly).</li>"
+      },
+      "4": {
+        "title": "Trademark Protection Legal Officer",
+        "details": "<li>Monitor and oversee the company’s trademark usage on online and offline platforms.</li><li>Identify and collect information on cases of trademark infringement, unauthorized use of logos, brand names, or related images.</li><li>Collaborate with the legal department to take action, including sending warning letters, requesting the removal of infringing content, or initiating legal procedures if necessary.</li><li>Work with stakeholders (lawyers, government agencies, external partners) to resolve issues related to trademark violations.</li>",
+        "timeNote": "",
+        "times": "",
+        "requirements": "<li>Proficient in English.</li><li>Basic knowledge of intellectual property (trademarks).</li><li>Careful, quick, and highly self-disciplined.</li>",
+        "benefits": "<li>Salary: 8,000,000 VND - 10,000,000 VND.</li><li>Meals provided at the company.</li><li>Regular salary reviews.</li><li>Work in a friendly, youthful, and dynamic environment.</li><li>Full benefits according to government regulations.</li><li>Leave policies (weekly, monthly).</li>"
+      }
+    },
+    "process": {
+      "title": "Recruitment Process",
+      "desc": "Here are the steps in The20's Recruitment Process: Don't hesitate to send us your application!",
+      "0": {
+        "index": "1",
+        "title": "CV Screening",
+        "desc": "Identify candidates who meet the qualifications for the position being recruited."
+      },
+      "1": {
+        "index": "2",
+        "title": "Preliminary Interview",
+        "desc": "Conduct a preliminary interview via email or phone to assess the candidate’s practical skills and suitability for the position."
+      },
+      "2": {
+        "index": "3",
+        "title": "In-Person Interview",
+        "desc": "Be confident when answering quick questions about your resume and foundational knowledge. Your professional skills and positive attitude always leave a great impression on us."
+      },
+      "3": {
+        "index": "4",
+        "title": "Feedback on Results",
+        "desc": "The interview results will be communicated to you as soon as possible via email."
+      }
+    }
+  },
+  "contact": {
+    "trans": "Contact",
+    "companyName": "THE 20 JOINT STOCK COMPANY",
+    "contactUs": "Contact <span>with us</span>",
+    "send": "Send",
+    "info": {
+      "title": "Contact Information",
+      "address": "281/15, Binh Loi.st, Ward 13, Binh Thanh dist, HCM City"
+    },
+    "headquarters": {
+      "trans": "Headquarters",
+      "address": "281/15 Bình Lợi, Ward 13, Bình Thạnh District, Ho Chi Minh City."
+    },
+    "businessInfo": {
+      "registrationNumber": "Business Registration Number",
+      "operationDate": "Date of Operation"
+    },
+    "firstName": {
+      "label": "First Name",
+      "placeholder": "Enter your first name",
+      "error": {
+        "required": "Enter your first name"
+      }
+    },
+    "lastName": {
+      "label": "Last Name",
+      "placeholder": "Enter your last name",
+      "error": {
+        "required": "Enter your last name"
+      }
+    },
+    "phoneNumber": {
+      "label": "Phone Number",
+      "placeholder": "Enter your phone number",
+      "error": {
+        "required": "Enter your phone number",
+        "invalid": "Invalid phone number"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "error": {
+        "required": "Enter your email",
+        "invalid": "Invalid email"
+      }
+    },
+    "content": {
+      "label": "Message",
+      "placeholder": "Tell us something",
+      "error": {
+        "required": "Enter your message",
+        "min": "Message is too short"
+      }
+    }
+  },
+  "applyForm": {
+    "apply": {
+      "trans": "Apply",
+      "detail": "Apply Information",
+      "now": "Apply now",
+      "button": "Confirm"
+    },
+    "fullName": {
+      "label": "Full name",
+      "placeholder": "Enter your full name",
+      "error": {
+        "required": "Enter your full name",
+        "min": "Full name too short"
+      }
+    },
+    "phoneNumber": {
+      "label": "Phone number",
+      "placeholder": "Enter your phone number",
+      "error": {
+        "required": "Enter your phone number",
+        "min": "Phone number too short"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Enter your email",
+      "error": {
+        "required": "Enter your email",
+        "invalid": "Invalid email"
+      }
+    },
+    "dateOfBirth": {
+      "label": "Day of birth",
+      "placeholder": "dd/mm/yy",
+      "error": {
+        "required": "Enter your day of birth",
+        "invalid": "Invalid day (dd/mm/yyyy)"
+      }
+    },
+    "upload": {
+      "label": "Upload CV",
+      "empty": "No file selected",
+      "selectFile": "Upload"
     }
   }
 }

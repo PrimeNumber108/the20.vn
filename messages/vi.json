@@ -6,21 +6,13 @@
       "recruitment": "Tuyển dụng",
       "contact": "Liên hệ",
       "introduction": "Giới thiệu",
-      "now": "Nay"
+      "present": "Nay"
     }
   },
-  "contact": {
-    "contact": "Liên hệ",
-    "companyName": "Công ty cổ phần The 20",
-    "headquarters": "Trụ sở chính",
-    "headquartersDetail": "281/15 Bình Lợi, Phường 13, Quận Bình Thạnh, Thành phố Hồ Chí Minh",
-    "businessRegistrationNumber": "Mã số doanh nghiệp",
-    "dateOfOperation": "Ngày hoạt động"
-  },
   "home": {
-    "introduction": {
-      "companyName": "CÔNG TY CỔ PHẦN  THƯƠNG MẠI BÁN LẺ",
-      "companyDesc": "Tại The20, chúng tôi cam kết mang đến những giá trị sản phẩm và dịch vụ tốt nhất cho khách hàng, cả trong và ngoài nước. Với đội ngũ tư vấn chuyên nghiệp, chúng tôi luôn sẵn sàng đồng hành cùng bạn để bạn tự tin tỏa sáng mỗi ngày."
+    "intro": {
+      "title": "CÔNG TY CỔ PHẦN  THƯƠNG MẠI BÁN LẺ",
+      "desc": "Tại The20, chúng tôi cam kết mang đến những giá trị sản phẩm và dịch vụ tốt nhất cho khách hàng, cả trong và ngoài nước. Với đội ngũ tư vấn chuyên nghiệp, chúng tôi luôn sẵn sàng đồng hành cùng bạn để bạn tự tin tỏa sáng mỗi ngày."
     },
     "history": {
       "breadcrumb": "Lịch sử hình thành The20",
@@ -29,52 +21,64 @@
       "milestones": "Với hơn 1 triệu sản phẩm được bán ra, chất lượng cao và dịch vụ chuyên nghiệp, chúng tôi tự hào là người bạn đồng hành tin cậy của mọi khách hàng."
     },
     "timeline": {
-      "period1": {
+      "0": {
         "title": "Bước chân đầu tiên vững chắc",
-        "description1": "Ra đời và phát triển nhanh chóng: Nhờ tầm nhìn đúng đắn và đội ngũ trẻ trung, đầy nhiệt huyết, công ty đã nhanh chóng khẳng định vị thế trên thị trường Việt Nam.",
-        "description2": "Tập trung vào thị trường nội địa: Các sản phẩm đầu tiên được ra mắt và nhận được sự đón nhận tích cực từ người tiêu dùng Việt."
+        "desc": {
+          "0": "Ra đời và phát triển nhanh chóng: Nhờ tầm nhìn đúng đắn và đội ngũ trẻ trung, đầy nhiệt huyết, công ty đã nhanh chóng khẳng định vị thế trên thị trường Việt Nam.",
+          "1": "Tập trung vào thị trường nội địa: Các sản phẩm đầu tiên được ra mắt và nhận được sự đón nhận tích cực từ người tiêu dùng Việt."
+        }
       },
-      "period2": {
+      "1": {
         "title": "Mở rộng thị trường và đa dạng hóa sản phẩm",
-        "description1": "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới.",
-        "description2": "Phát triển dòng sản phẩm skincare và chăm sóc tóc: Đáp ứng nhu cầu đa dạng của khách hàng, công ty không ngừng nghiên cứu và cho ra mắt các sản phẩm mới, chất lượng cao."
+        "desc": {
+          "0": "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới.",
+          "1": "Phát triển dòng sản phẩm skincare và chăm sóc tóc: Đáp ứng nhu cầu đa dạng của khách hàng, công ty không ngừng nghiên cứu và cho ra mắt các sản phẩm mới, chất lượng cao."
+        }
       },
-      "period3": {
+      "2": {
         "title": "Tích hợp công nghệ, dẫn đầu xu hướng thương mại điện tử",
-        "description1": "Thành công vang dội với livestream: Các buổi livestream bán hàng đạt doanh thu khủng, khẳng định sức hút của thương hiệu, được nhiều beauty blogger, KOLs nổi tiếng như Ngọc Trinh, Chảnh Beauty, Hannaholala,... tin dùng và giới thiệu.",
-        "description2": "Chiếm lĩnh thị phần đáng kể: Với hơn 100.000 sản phẩm được bán ra mỗi tháng, công ty đã chiếm 28,5% tổng doanh thu ngành mỹ phẩm Việt Nam, trở thành một trong những thương hiệu mỹ phẩm hàng đầu."
+        "desc": {
+          "0": "Thành công vang dội với livestream: Các buổi livestream bán hàng đạt doanh thu khủng, khẳng định sức hút của thương hiệu, được nhiều beauty blogger, KOLs nổi tiếng như Ngọc Trinh, Chảnh Beauty, Hannaholala,... tin dùng và giới thiệu.",
+          "1": "Chiếm lĩnh thị phần đáng kể: Với hơn 100.000 sản phẩm được bán ra mỗi tháng, công ty đã chiếm 28,5% tổng doanh thu ngành mỹ phẩm Việt Nam, trở thành một trong những thương hiệu mỹ phẩm hàng đầu."
+        }
       }
     },
     "brand": {
-      "brandIdentity": "Bản sắc thương hiệu",
-      "title": "Vẻ đẹp hoàn hảo, <span>chất lượng</span> <span>vượt trội.</span>",
-      "mission": "Sứ mệnh",
-      "missionDesc": "Với niềm tin mang đến vẻ đẹp toàn diện nhất cho người tiêu dùng, công ty luôn nghiên cứu và tìm ra những sản phẩm phù hợp và lành tính nhất. The20 chúng tôi muốn trở thành một người bạn đồng hành cùng người tiêu dùng trong con đường chăm sóc và làm đẹp của họ.",
-      "vision": "Tầm nhìn",
-      "visionDesc": "The20 hướng đến mục tiêu cung cấp những sản phẩm và dịch vụ có chất lượng với giá trị vượt trội, không ngừng nỗ lực trở thành công ty dẫn đầu về thị phần, kiến tạo thêm nhiều giá trị cốt lõi bền vững. Điều này nhằm mang lại những lợi ích cho khách hàng, đội ngũ nhân viên và cổ đông của tập đoàn công ty."
+      "title": "Bản sắc thương hiệu",
+      "desc": "Vẻ đẹp hoàn hảo, <span>chất lượng</span> <span>vượt trội.</span>",
+      "mission": {
+        "title": "Sứ mệnh",
+        "desc": "Với niềm tin mang đến vẻ đẹp toàn diện nhất cho người tiêu dùng, công ty luôn nghiên cứu và tìm ra những sản phẩm phù hợp và lành tính nhất. The20 chúng tôi muốn trở thành một người bạn đồng hành cùng người tiêu dùng trong con đường chăm sóc và làm đẹp của họ."
+      },
+      "vision": {
+        "title": "Tầm nhìn",
+        "desc": "The20 hướng đến mục tiêu cung cấp những sản phẩm và dịch vụ có chất lượng với giá trị vượt trội, không ngừng nỗ lực trở thành công ty dẫn đầu về thị phần, kiến tạo thêm nhiều giá trị cốt lõi bền vững. Điều này nhằm mang lại những lợi ích cho khách hàng, đội ngũ nhân viên và cổ đông của tập đoàn công ty."
+      }
     },
     "slide": {
-      "content1": "Nguyên tắc cơ bản của công ty chính là hướng tới một xã hội đổi mới, ổn định và thịnh vượng thông qua hoạt động bán lẻ.",
-      "content2": "Với trách nhiệm đó, công ty The20 đã có được lòng tin của khách hàng cũng như mở rộng hoạt động kinh doanh không chỉ tại Việt Nam mà còn tại các quốc gia khác trong một khoảng thời gian dài."
+      "content": {
+        "0": "Nguyên tắc cơ bản của công ty chính là hướng tới một xã hội đổi mới, ổn định và thịnh vượng thông qua hoạt động bán lẻ.",
+        "1": "Với trách nhiệm đó, công ty The20 đã có được lòng tin của khách hàng cũng như mở rộng hoạt động kinh doanh không chỉ tại Việt Nam mà còn tại các quốc gia khác trong một khoảng thời gian dài."
+      }
     },
     "coreValues": {
-      "coreValues": "Giá trị cốt lõi",
-      "value1": {
+      "trans": "Giá trị cốt lõi",
+      "0": {
         "index": "01.",
         "title": "Thái độ",
         "desc": "The20 chân thành, cởi mở, thẳng thắn để xây dựng sự tin tưởng của Khách hàng."
       },
-      "value2": {
+      "1": {
         "index": "02.",
         "title": "Trách nhiệm",
         "desc": "The20 hoàn toàn chịu trách nhiệm về những công việc của mình."
       },
-      "value3": {
+      "2": {
         "index": "03.",
         "title": "Chất lượng",
         "desc": "The20 mang đến Dịch vụ, giải pháp tối ưu và luôn phát triển không ngừng dựa trên sự hài lòng của khách hàng."
       },
-      "value4": {
+      "3": {
         "index": "04.",
         "title": "Uy tín",
         "desc": "The20 là đối tác tin cậy của doanh nghiệp và ứng viên."
@@ -87,37 +91,262 @@
       "desc": "Nơi mang đến vẻ đẹp tự nhiên và sự tự tin cho bạn mỗi ngày."
     },
     "about": {
-      "name": "Về chúng tôi",
+      "trans": "Về chúng tôi",
       "title": "Chúng tôi tự hào là nhà bán lẻ mỹ phẩm hàng đầu, cung cấp các sản phẩm chất lượng cao từ những thương hiệu <span>nổi tiếng trên toàn thế giới.</span>",
       "desc": "Thông qua sự phối hợp hiệu quả giữa các đội ngũ có chuyên môn, kiến thức sâu rộng về thị trường, The20 tự hào mang đến trải nghiệm tốt nhất cho khách hàng"
     },
     "team": {
       "breadcrumb": "Đội ngũ THE20",
       "title": "Đội ngũ nhân viên tâm huyết,<span>giàu kinh nghiệm</span>",
-      "team1": {
+      "0": {
         "name": "Phòng Kinh doanh",
         "desc": "Phòng Kinh Doanh của THE20 cam kết mang đến các sản phẩm lượng và dịch vụ chuyên nghiệp.<br></br> Phương châm của chúng tôi là \"Khách hàng là trung tâm,\" đảm bảo mang lại giải pháp tối ưu và lợi ích cao nhất cho bạn."
       },
-      "team2": {
+      "1": {
         "name": "Phòng Marketing",
         "desc": "Với việc tập trung vào xây dựng hình ảnh thương hiệu mạnh mẽ và kết nối với khách hàng qua các chiến dịch sáng tạo, chúng tôi không ngừng phát triển chiến lược truyền thông phù hợp, giúp sản phẩm đến gần hơn với người tiêu dùng.<br></br>Với đội ngũ trẻ trung, nhiệt huyết, chúng tôi luôn tìm kiếm những ý tưởng đột phá nhằm tạo nên sự khác biệt và nâng cao giá trị thương hiệu."
       },
-      "team3": {
+      "2": {
         "name": "Phòng Tài chính - Kế toán",
         "desc": "Đội ngũ của chúng tôi cam kết tuân thủ các quy định và tiêu chuẩn tài chính, hỗ trợ quá trình kinh doanh thông suốt và tối ưu hóa nguồn lực."
       },
-      "team4": {
+      "3": {
         "name": "Phòng Thu mua - Kho vận",
         "desc": "Với quy trình làm việc chặt chẽ và đội ngũ chuyên nghiệp, phòng Thu Mua luôn tìm kiếm và lựa chọn những sản phẩm chất lượng cao từ các nhà cung cấp uy tín."
       }
     },
     "product": {
       "breadcrumb": "SẢN PHẨM CỦA CHÚNG TÔI",
-      "title": "Chúng tôi có sản phẩm nhãn hiệu riêng của mình"
+      "title": "Chúng tôi có sản phẩm nhãn hiệu riêng của mình",
+      "0": {
+        "name": "FEG",
+        "desc": "Bí quyết nuôi dưỡng mái tóc khỏe mạnh, óng mượt tự nhiên."
+      },
+      "1": {
+        "name": "FEG",
+        "desc": "Tự tin tỏa sáng, vẻ đẹp không giới hạn."
+      },
+      "2": {
+        "name": "FEG",
+        "desc": "Công thức độc đáo, dành riêng cho bạn, chỉ có tại FEG."
+      },
+      "3": {
+        "name": "Kasomo",
+        "desc": "Tóc khỏe, đẹp tự nhiên, mọi lúc mọi nơi"
+      },
+      "4": {
+        "name": "Kasomo",
+        "desc": "Đồng hành cùng bạn trên hành trình chinh phục vẻ đẹp hoàn hảo."
+      },
+      "5": {
+        "name": "Kasomo",
+        "desc": "Cập nhật xu hướng, chăm sóc tóc và râu hiện đại."
+      }
     },
     "partner": {
       "breadcrumb": "ĐỐI TÁC CỦA CHÚNG TÔI",
       "title": "Chúng tôi cũng hợp tác với các sản phẩm từ các công ty vừa và nhỏ, các công ty khởi nghiệp cũng như các thương hiệu nổi tiếng như Estee Lauder, Mistine, Dior, MAC, v.v."
+    }
+  },
+  "recruitment": {
+    "intro": {
+      "title": "Chúng tôi đặc biệt đề cao những ứng viên có phẩm chất đạo đức tốt và trách nhiệm với công việc.",
+      "highlight": "Những lợi ích khi làm việc với chúng tôi:"
+    },
+    "benefit": {
+      "title": "Chúng tôi có đội ngũ nhân viên trẻ, năng động và nhiệt huyết luôn sát cánh cùng The20 trên hành trình mang đến vẻ đẹp hoàn hảo cho người Việt Nam. Chúng tôi tự đặt cho mình nhiệm vụ cung cấp những sản phẩm và dịch vụ chất lượng tốt làm động lực tích cực để phát triển xa hơn trong tương lai.",
+      "0": {
+        "title": "Thu nhập",
+        "desc": "Mức lương hấp dẫn và thưởng hiệu suất đãi ngộ."
+      },
+      "1": {
+        "title": "Đào tạo",
+        "desc": "Quy trình học tập hiệu quả và tài liệu đa dạng cùng các khóa học trực tuyến."
+      },
+      "2": {
+        "title": "Linh động",
+        "desc": "Giờ làm việc linh hoạt, kỳ nghỉ không giới hạn và nghỉ phép có lương."
+      },
+      "3": {
+        "title": "Phúc lợi",
+        "desc": "Bữa trưa, bữa tối và đồ uống lành mạnh tại công ty."
+      },
+      "4": {
+        "title": "Môi trường",
+        "desc": "Vui vẻ, hòa đồng, trò chơi tại chỗ, đi chơi cùng nhóm, tiệc công ty, v.v."
+      }
+    },
+    "position": {
+      "breadcrumb": "Vị Trí Đang Tuyển",
+      "awesomeJobOpportunity": "Công việc cực hay",
+      "workingHours": "Thời gian làm việc",
+      "simpleRequirements": "Yêu cầu không khó",
+      "amazingBenefits": "Quyền lợi siêu yêu",
+      "viewMore": "Xem thêm",
+      "positionDetail": "Chi tiết tuyển dụng",
+      "0": {
+        "title": "Nhân Viên Trực Page",
+        "details": "<li>Trả lời, tư vấn cho khách hàng về sản phẩm, cách sử dụng sản phẩm trước, trong và sau bán hàng qua các kênh online.</li><li>Nắm bắt các thông tin khuyến mãi, chương trình bán hàng để tư vấn cho khách hàng một cách chính xác nhất.</li>",
+        "timeNote": "(Ca cố định, thỏa thuận ca khi phỏng vấn)",
+        "times": "<li>8h30 - 13h00</li><li>13h00 - 21h00</li><li>18h00 - 23h00</li><li>OFF 1 ngày bất kỳ trong tuần ( có đăng ký trước với Leader)</li>",
+        "requirements": "<li>Tiếng Anh: giao tiếp, chat khá (trình độ tầm toeic 550 trở lên, không yêu cầu bằng sẽ làm test lúc phỏng vấn).</li><li>Chăm chỉ, trách nhiệm và tận tâm với công việc.</li><li>Kinh Nghiệm: Không yêu cầu sẽ được Training, tuy nhiên đã từng bán hàng trực tuyến hoặc mỹ phẩm là một lợi thế.</li>",
+        "benefits": "<li>Lương cứng: 7.000.000 - 8.000.000 VNĐ + Hoa Hồng.</li><li>Hỗ trợ suất ăn trưa/tối + tráng miệng.</li><li>Đánh giá xem xét tăng lương 1 năm 1 lần định kỳ theo quy định.</li><li>Thưởng lễ, tết, sinh nhật.</li>"
+      },
+      "1": {
+        "title": "Chăm Sóc Khách Hàng Ca Chiều Tối (13h-21h)",
+        "timeNote": "Ca chiều từ 13h - 21h.",
+        "details": "<li>Tư vấn và giải đáp thắc mắc của khách hàng qua các đầu số hotline.</li><li>Chăm sóc đơn hàng qua điện thoại, tin nhắn để đảm bảo đơn giao thành công.</li><li>Kiểm tra thông tin đơn hàng trước khi giao cho khách.</li><li>Thời gian làm việc: ca chiều từ 13h - 21h.</li>",
+        "times": "<li>OFF 1 ngày bất kỳ trong tuần (có đăng ký trước với Leader).</li>",
+        "requirements": "<li>Tiếng Anh: giao tiếp khá (không yêu cầu bằng, làm test lúc phỏng vấn).</li><li>Có laptop cá nhân.</li><li>Tinh thần trung thực và cầu tiến, biết lắng nghe.</li><li>Có tinh thần trách nhiệm cao và nghiêm túc trong công việc.</li>",
+        "benefits": "<li>Lương cứng: 8.000.000 - 9.000.000 VND + Thưởng hiệu suất.</li><li>Hỗ trợ suất ăn tối + tráng miệng.</li><li>Đánh giá xem xét tăng lương 1 năm 1 lần định kỳ theo quy định.</li><li>Thưởng lễ, tết, sinh nhật.</li>"
+      },
+      "2": {
+        "title": "Chuyên Viên Thu Mua Mỹ Phẩm, Chăm Sóc Sức Khỏe Và Làm Đẹp",
+        "details": "<li>Tìm kiếm Nhà cung ứng với giá cả cạnh tranh, chính sách hợp lý. Thương lượng, đàm phán cùng Nhà cung cấp về giá, chính sách công nợ, chiết khấu hợp lý cho từng dòng sản phẩm.</li><li>Xác nhận tiến độ giao hàng & theo dõi quá trình giao hàng của nhà cung cấp, xử lý khiếu nại nếu hàng hóa có sai sót.</li><li>Theo dõi thanh toán công nợ, giữ quan hệ tốt với đối tác.</li><li>Thu thập, phân tích và tổng hợp dữ liệu để lập kế hoạch thu mua và kiểm soát thông tin</li><li>Nhận và đánh giá chất lượng hàng hoá, xử lý theo quy định của công ty với trường hợp hàng không như hàng mẫu, không tuân theo hợp đồng, hư hỏng, không đúng số lượng,...</li><li>Cập nhật kịp thời sự thay đổi giá hàng hóa, sản phẩm mới đến Giám đốc và các phòng ban liên quan</li><li>Quản lý tất cả hồ sơ mua hàng, thực hiện báo cáo mua hàng định kỳ hoặc khi được cấp trên yêu cầu.</li>",
+        "timeNote": "",
+        "times": "",
+        "requirements": "<li>Thành thạo tiếng Trung</li><li>Tiếng Anh giao tiếp và chuyên ngành 1-3 năm kinh nghiệm mua hàng (trong các lĩnh vực skincare, beauty, mỹ phẩm, chắm sóc sức khoẻ, công ty bán lẻ).</li><li>Am hiểu về FIFO, lên forecast và có khả năng tìm kiếm hàng trading, raw trong ngành mỹ phẩm</li><li>Kỹ năng QC, đảm bảo chất lượng sản phẩm qua các tiêu chuẩn kiểm định trong ngành</li><li>Đã từng làm việc thị trường Trung Quốc hoặc Global và có data đối tác Trung Quốc, Global.</li><li>Kỹ năng giao tiếp bằng lời nói và bằng văn, có khả năng đàm phán và xử lý hợp đồng.</li><li>Tính cẩn thận, tỉ mỉ, chú ý đến từng chi tiết.</li>",
+        "benefits": "<li>Thu nhập: 12.000.000 vnd - 15.000.000 (vnd) + Thưởng</li><li>Hỗ trợ bữa ăn tại công ty</li><li>Xét tăng lương theo định kỳ.</li><li>Làm việc trong môi trường thân thiện, trẻ trung, năng động.</li><li>Hưởng đầy đủ các quyền lợi theo quy định của Nhà nước.</li><li>Chế độ nghỉ phép. (Theo tuần, Tháng )</li>"
+      },
+      "3": {
+        "title": "QC/QA Engineer (Tester)",
+        "details": "<li>Hỗ trợ phát triển công cụ test: Tham gia vào quá trình phát triển và cải thiện các công cụ test nhằm nâng cao hiệu quả kiểm thử.</li><li>Kiểm tra và sửa lỗi: Tiến hành kiểm tra sản phẩm, phát hiện và sửa lỗi (nếu có). Phối hợp chặt chẽ với team code để xử lý lỗi hằng ngày.</li><li>Giảm thiểu lỗi: Tích cực làm việc để giảm thiểu số lượng lỗi phát sinh xuống mức thấp nhất có thể, đảm bảo chất lượng sản phẩm.</li><li>Quy trình kiểm thử hằng ngày: Mỗi ngày, tiến hành kiểm tra và sửa các tính năng cần test, sau đó giám sát quá trình sử dụng sản phẩm. Nếu phát hiện lỗi, lập tức báo cáo với team code để xử lý và đưa ra hướng giải quyết nhanh chóng.</li><li>Báo cáo cuối ngày: Tổng hợp tất cả các lỗi trong ngày, kèm theo các phương án xử lý và báo cáo cho quản lý.</li>",
+        "times": "",
+        "requirements": "<li>Thành thạo google sheet, excel.</li><li>Có kinh nghiệm tester từ 1 năm</li>",
+        "benefits": "<li>Thu nhập: 8.000.000 vnd - 10.000.000 (vnd)</li><li>Hỗ trợ bữa ăn tại công ty</li><li>Xét tăng lương theo định kỳ.</li><li>Làm việc trong môi trường thân thiện, trẻ trung, năng động.</li><li>Hưởng đầy đủ các quyền lợi theo quy định của Nhà nước.</li><li>Chế độ nghỉ phép. (Theo tuần, Tháng )</li>"
+      },
+      "4": {
+        "title": "Nhân Viên Pháp Chế Bảo Hộ Nhãn Hiệu",
+        "details": "<li>Giám sát và theo dõi hoạt động sử dụng nhãn hiệu của công ty trên các nền tảng trực tuyến và offline.</li><li>Phát hiện và thu thập thông tin về các trường hợp vi phạm quyền nhãn hiệu, sử dụng trái phép logo, tên thương hiệu, hoặc hình ảnh liên quan.</li><li>Phối hợp với bộ phận pháp lý để đưa ra các biện pháp xử lý, bao gồm gửi thư cảnh báo, yêu cầu gỡ bỏ nội dung vi phạm hoặc tiến hành các thủ tục pháp lý nếu cần.</li><li>Làm việc với các bên liên quan (luật sư, cơ quan nhà nước, đối tác bên ngoài) để giải quyết các vấn đề liên quan đến vi phạm quyền nhãn hiệu.</li>",
+        "times": "",
+        "requirements": "<li>Biết tiếng anh</li><li>Biết sơ đẳng về sở hữu trí tuệ (nhãn hiệu)</li><li>Cẩn thận, nhanh nhẹn, tự giác cao</li>",
+        "benefits": "<li>Thu nhập: 8.000.000 vnd - 10.000.000 (vnd)</li><li>Hỗ trợ bữa ăn tại công ty</li><li>Xét tăng lương theo định kỳ.</li><li>Làm việc trong môi trường thân thiện, trẻ trung, năng động.</li><li>Hưởng đầy đủ các quyền lợi theo quy định của Nhà nước.</li><li>Chế độ nghỉ phép. (Theo tuần, Tháng )</li>"
+      }
+    },
+    "process": {
+      "title": "Quy trình tuyển dụng",
+      "desc": "Dưới đây là các bước trong Quy trình tuyển dụng tại The20:<br></br> Nhanh tay gửi hồ sơ cho chúng tôi!",
+      "0": {
+        "index": "1",
+        "title": "Sàng lọc CV",
+        "desc": "Xác định ứng viên đáp ứng đủ điều kiện cho vị trí đang tuyển dụng."
+      },
+      "1": {
+        "index": "2",
+        "title": "Phỏng vấn sơ tuyển",
+        "desc": "Phỏng vấn sơ tuyển thông qua email hoặc gọi điện thoại để đánh giá mức độ phù hợp về kỹ năng thực hành của ứng viên đối với vị trí đang tuyển dụng."
+      },
+      "2": {
+        "index": "3",
+        "title": "Phỏng vấn trực tiếp",
+        "desc": "Hãy tự tin trả lời các câu hỏi kiểm tra nhanh về sơ yếu lý lịch, kiến thức nền tảng của bạn. Kỹ năng chuyên môn và thái độ tích cực của bạn luôn tạo ấn tượng tuyệt vời cho chúng tôi."
+      },
+      "3": {
+        "index": "4",
+        "title": "Phản hồi kết quả",
+        "desc": "Kết quả phỏng vấn sẽ được phản hồi với bạn sớm nhất qua email."
+      }
+    }
+  },
+  "contact": {
+    "trans": "Liên hệ",
+    "companyName": "Công ty cổ phần The 20",
+    "contactUs": "Liên hệ với <span>chúng tôi</span>",
+    "send": "Gửi",
+    "info": {
+      "title": "Thông tin liên hệ",
+      "address": "281/15, Đường Bình Lợi, P.13, Q.Bình Thạnh, Tp.HCM"
+    },
+    "headquarters": {
+      "trans": "Trụ sở chính",
+      "address": "281/15 Bình Lợi, Phường 13, Quận Bình Thạnh, Thành phố Hồ Chí Minh"
+    },
+    "businessInfo": {
+      "registrationNumber": "Mã số doanh nghiệp",
+      "operationDate": "Ngày hoạt động"
+    },
+    "firstName": {
+      "label": "Họ",
+      "placeholder": "Nhập họ",
+      "error": {
+        "required": "Nhập họ"
+      }
+    },
+    "lastName": {
+      "label": "Tên",
+      "placeholder": "Nhập tên",
+      "error": {
+        "required": "Nhập tên"
+      }
+    },
+    "phoneNumber": {
+      "label": "Số điện thoại",
+      "placeholder": "Nhập số điện thoại",
+      "error": {
+        "required": "Nhập số điện thoại",
+        "invalid": "Số điện thoại không đúng"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Nhập email",
+      "error": {
+        "required": "Nhập email",
+        "invalid": "Email không hợp lệ"
+      }
+    },
+    "content": {
+      "label": "Nội dung",
+      "placeholder": "Nội dung cần liên hệ",
+      "error": {
+        "required": "Nhập nội dung cần liên hệ",
+        "min": "Nội dung quá ngắn"
+      }
+    }
+  },
+  "applyForm": {
+    "apply": {
+      "trans": "Ứng tuyển",
+      "detail": "Thông tin ứng tuyển",
+      "now": "Ứng tuyển ngay",
+      "button": "Ứng tuyển"
+    },
+    "fullName": {
+      "label": "Họ và tên",
+      "placeholder": "Nhập họ tên",
+      "error": {
+        "required": "Nhập họ tên",
+        "min": "Họ và tên quá ngắn"
+      }
+    },
+    "phoneNumber": {
+      "label": "Số điện thoại",
+      "placeholder": "Nhập số điện thoại",
+      "error": {
+        "required": "Nhập số điện thoại",
+        "min": "Số điện thoại quá ngắn"
+      }
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "Nhập email",
+      "error": {
+        "required": "Nhập email",
+        "invalid": "Email không hợp lệ"
+      }
+    },
+    "dateOfBirth": {
+      "label": "Ngày sinh",
+      "placeholder": "dd/mm/yy",
+      "error": {
+        "required": "Nhập ngày sinh",
+        "invalid": "Ngày không hợp lệ (dd/mm/yy)"
+      }
+    },
+    "upload": {
+      "label": "Upload CV",
+      "empty": "Không có tệp nào được chọn",
+      "selectFile": "Chọn file"
     }
   }
 }

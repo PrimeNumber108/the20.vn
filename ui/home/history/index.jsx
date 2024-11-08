@@ -1,5 +1,4 @@
 import Breadcrumb from "@/components/breadcrumb";
-import Square from "@/components/Square";
 import { useTranslations } from "next-intl";
 import React from "react";
 
@@ -23,12 +22,8 @@ const History = () => {
             </p>
           </div>
           <div className="flex flex-col flex-1 gap-[30px]">
-            <div className="text-body-lg">
-              <p>{t("establishment")}</p>
-            </div>
-            <div>
-              <p>{t("milestones")}</p>
-            </div>
+            <p className="text-body-lg"> {t("establishment")}</p>
+            <p className="text-body-lg">{t("milestones")}</p>
           </div>
         </div>
       </div>

@@ -27,7 +27,10 @@ const Navigation = () => {
           <Link
             key={`nav-${name}`}
             href={href}
-            className={clsx("font-semibold text-body-sm", pathname === href ? "text-white" : "text-slate-gray")}
+            className={clsx(
+              "font-semibold text-body-sm",
+              pathname === href || (href !== "/" && pathname.includes(href)) ? "text-white" : "text-slate-gray"
+            )}
           >
             {t(name)}
           </Link>

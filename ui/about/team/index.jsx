@@ -1,10 +1,7 @@
 import { useTranslations } from "next-intl";
 import React from "react";
-import BrandBackground from "./background";
 import Breadcrumb from "@/components/breadcrumb";
 import TeamBackground from "./background";
-
-const TEAMS = ["team1", "team2", "team3", "team4"];
 
 const Team = () => {
   const t = useTranslations("about.team");
@@ -21,19 +18,13 @@ const Team = () => {
           <div className="w-full h-[1px] bg-black mt-6"></div>
         </div>
         <h2 className="text-display-sm">
-          {t.rich("title", {
-            span: (chunks) => <span className="block">{chunks[0]}</span>,
-          })}
+          {t.rich("title", { span: (chunks) => <span className="block">{chunks[0]}</span> })}
         </h2>
         <div className="grid-layout">
-          {TEAMS.map((team) => (
-            <div key={`about-${team}`} className="col-span-6 px-6 py-5 border border-[#E8E8E8] rounded-lg">
-              <p className="mb-5 text-heading-sm">{t(`${team}.name`)}</p>
-              <p className="text-body-md">
-                {t.rich(`${team}.desc`, {
-                  br: (chunks) => <br />,
-                })}
-              </p>
+          {Array.from({ length: 4 }, (_, i) => (
+            <div key={`about--about-${i}`} className="col-span-6 px-6 py-5 border border-[#E8E8E8] rounded-lg">
+              <p className="mb-5 text-heading-sm">{t(`${i}.name`)}</p>
+              <p className="text-body-md">{t.rich(`${i}.desc`, { br: () => <br /> })}</p>
             </div>
           ))}
         </div>

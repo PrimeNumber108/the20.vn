@@ -7,6 +7,10 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/ui/navbar";
 import Footer from "@/ui/footer";
 
+import "../globals.css";
+import NextTopLoader from "nextjs-toploader";
+import { Toaster } from "@/components/ui/toaster";
+
 const baiJamjuree = Bai_Jamjuree({
   weight: ["200", "300", "400", "500", "600", "700"],
   subsets: ["latin", "vietnamese"],
@@ -18,6 +22,10 @@ const montserrat = Montserrat({
   subsets: ["latin", "vietnamese"],
   display: "swap",
 });
+
+export function generateStaticParams() {
+  return routing.locales.map((locale) => ({ locale }));
+}
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
@@ -35,11 +43,13 @@ export default async function LocaleLayout({ children, params }) {
   return (
     <html lang={locale} className={`${baiJamjuree.className} ${montserrat.className}`} suppressHydrationWarning>
       <body>
+        <NextTopLoader color="#0C0CDB" />
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
             <Navbar />
             {children}
             <Footer />
+            <Toaster />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>
