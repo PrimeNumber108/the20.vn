@@ -3,7 +3,7 @@ import React from "react";
 
 const PhoneFixed = () => {
   return (
-    <div className="fixed bottom-5 right-2.5 z-30 cursor-pointer">
+    <div className="fixed bottom-20 right-2.5 z-30 cursor-pointer">
       <Link href="tel:0833800110">
         <div className="flex items-center">
           <div className="w-[44px] h-[44px] bg-main flex-center rounded-full border-[4px] border-white z-30 drop-shadow-light">

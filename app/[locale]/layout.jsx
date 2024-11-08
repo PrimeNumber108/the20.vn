@@ -6,11 +6,11 @@ import { Bai_Jamjuree, Montserrat } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import Navbar from "@/ui/navbar";
 import Footer from "@/ui/footer";
-
-import "../globals.css";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/toaster";
 import PhoneFixed from "@/components/Phone";
+
+import "../globals.css";
 
 const baiJamjuree = Bai_Jamjuree({
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -27,6 +27,14 @@ const montserrat = Montserrat({
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
+
+export const metadata = {
+  title: "The20",
+  description: "The20",
+  icons: {
+    icon: "/images/logo/logo.png",
+  },
+};
 
 export default async function LocaleLayout({ children, params }) {
   const { locale } = await params;
