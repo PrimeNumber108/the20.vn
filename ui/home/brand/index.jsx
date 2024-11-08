@@ -6,7 +6,7 @@ import Breadcrumb from "@/components/breadcrumb";
 const Brand = () => {
   const t = useTranslations("home.brand");
   return (
-    <div className="overflow-hidden text-black bg-white flex-center">
+    <div className="overflow-hidden text-black bg-white rounded-xl flex-center">
       <div className="flex page-layout gap-[34px] py-12 items-center relative">
         <div className="absolute inset-0">
           <BrandBackground />

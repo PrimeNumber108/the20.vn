@@ -3,7 +3,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useTranslations } from "next-intl";
-import { useEffect, useRef, useState } from "react";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
@@ -11,8 +10,11 @@ import dayjs from "dayjs";
 import customParseFormat from "dayjs/plugin/customParseFormat";
 import { Textarea } from "@/components/ui/textarea";
 import { contactSchema } from "./schema";
-import ReCAPTCHA from "react-google-recaptcha";
-import { contactFormAction } from "../../../actions/contact";
+import { contactFormAction } from "../../../app/actions/contact";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import { verifyCaptcha } from "@/app/actions/verifyCaptcha";
+import { errorToast, successToast } from "@/utils/customToast";
+import { useToast } from "@/hooks/use-toast";
 
 dayjs.extend(customParseFormat);
 
@@ -25,24 +27,17 @@ const DEFAULT_VALUES = {
 };
 
 export function ContactForm() {
+  const { toast } = useToast();
   const t = useTranslations(`contact`);
-  const recaptchaRef = useRef(null);
-  console.log("ContactForm ~ recaptchaRef:", recaptchaRef);
-  const [isVerified, setIsVerified] = useState(false);
+  const { executeRecaptcha } = useGoogleReCaptcha();
 
   const form = useForm({
     resolver: zodResolver(contactSchema(t)),
-    defaultValues: {
-      firstName: "",
-      lastName: "",
-      phoneNumber: "",
-      email: "",
-      content: "",
-    },
+    defaultValues: DEFAULT_VALUES,
   });
 
   const {
-    formState: { isSubmitting, isSubmitSuccessful },
+    formState: { isSubmitting },
     control,
     handleSubmit,
     reset,
@@ -50,93 +45,55 @@ export function ContactForm() {
 
   const onSubmit = async (values) => {
     try {
-      // const { firstName, lastName, phoneNumber, email, content } = values;
-      // const body = {
-      //   to: "thang111220@gmail.com",
-      //   subject: `The20 - Liên hệ  - ${firstName} ${lastName}`,
-      //   body: `
-      //     <html>
-      //       <body>
-      //         <p>Họ và tên: ${firstName} ${lastName}</p>
-      //         <p>Số điện thoại: ${phoneNumber}</p>
-      //         <p>Email: ${email}</p>
-      //         <p>Nội dung: ${content}</p>
-      //       </body>
-      //     </html>
-      //   `,
-      // };
+      if (!executeRecaptcha) {
+        toast(errorToast({ title: "Recaptcha not available" }));
+        throw new Error("Recaptcha not available!");
+      }
 
-      // const response = await fetch("/api/sendEmail", {
-      //   method: "POST",
-      //   headers: { "Content-Type": "application/json" },
-      //   body: JSON.stringify(body),
-      // });
+      const gRecaptchaToken = await executeRecaptcha("submit_form");
+      const isVerify = verifyCaptcha(gRecaptchaToken);
+
+      if (!isVerify) {
+        toast(errorToast({ title: "Failed to verify recaptcha!" }));
+        throw new Error("Failed to verify recaptcha!");
+      }
 
       const response = await contactFormAction(values);
 
       if (response.ok) {
-        toast({
-          className: "bg-white text-black data-[state=open]:sm:slide-in-from-top-full top-0 sm:top-0 border-0",
-          title: (
-            <div className="flex items-center justify-center gap-2.5">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#52C41A" className="size-6">
-                <path
-                  fillRule="evenodd"
-                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span className="font-normal text-body-lg">Sent message successfully</span>
-            </div>
-          ),
-        });
+        toast(successToast({ title: "Message sent successfully" }));
+        reset();
       } else {
-        console.error("Error sending email:", response.statusText);
+        toast(errorToast({ title: "An error has occurred!" }));
       }
     } catch (error) {
       console.error("Error:", error);
     }
   };
 
-  useEffect(() => {
-    reset(DEFAULT_VALUES);
-  }, [isSubmitSuccessful, reset]);
-
-  async function handleCaptchaSubmission(token) {
-    const success = await verifyCaptcha(token);
-    if (success) {
-      setIsVerified(true);
-    } else {
-      setIsVerified(false);
-    }
-    // try {
-    //   if (token) {
-    //     await fetch("/api/captcha", {
-    //       method: "POST",
-    //       headers: {
-    //         Accept: "application/json",
-    //         "Content-Type": "application/json",
-    //       },
-    //       body: JSON.stringify({ token }),
-    //     });
-    //     setIsVerified(true);
-    //   }
-    // } catch (e) {
-    //   console.log("handleCaptchaSubmission ~ e:", e);
-    //   setIsVerified(false);
-    // }
-  }
-
-  const handleChange = (token) => {
-    handleCaptchaSubmission(token);
-  };
-
-  function handleExpired() {
-    setIsVerified(false);
-  }
-
   return (
     <Form {...form}>
+      <button
+        onClick={() =>
+          toast({
+            className: "bg-white text-black data-[state=open]:sm:slide-in-from-top-full top-0 sm:top-0 border-0",
+            title: (
+              <div className="flex items-center justify-center gap-2.5">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FF4D4E" className="size-6">
+                  <path
+                    fillRule="evenodd"
+                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z"
+                    clipRule="evenodd"
+                  />
+                </svg>
+                <span className="font-normal text-body-lg">Failed to verify recaptcha!</span>
+              </div>
+            ),
+          })
+        }
+      >
+        asdasd
+      </button>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
         <div className="grid grid-cols-2 gap-6">
           <div className="col-span-1 space-y-3">
@@ -236,14 +193,7 @@ export function ContactForm() {
           </div>
         </div>
         <div className="flex gap-8">
-          <ReCAPTCHA
-            sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY || ""}
-            ref={(r) => console.log(r?.props)}
-            onChange={handleChange}
-            onExpired={handleExpired}
-            onErrored={() => console.log(true)}
-          />
-          <Button type="submit" className="w-full" variant="main" disabled={!isVerified || isSubmitting}>
+          <Button type="submit" className="w-full" variant="main" disabled={isSubmitting}>
             <p className="flex items-center justify-center text-heading-md gap-2.5">
               <span className="text-heading-md">{t("send")}</span>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">

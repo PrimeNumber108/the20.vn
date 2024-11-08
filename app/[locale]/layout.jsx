@@ -10,6 +10,7 @@ import Footer from "@/ui/footer";
 import "../globals.css";
 import NextTopLoader from "nextjs-toploader";
 import { Toaster } from "@/components/ui/toaster";
+import PhoneFixed from "@/components/Phone";
 
 const baiJamjuree = Bai_Jamjuree({
   weight: ["200", "300", "400", "500", "600", "700"],
@@ -50,6 +51,7 @@ export default async function LocaleLayout({ children, params }) {
             {children}
             <Footer />
             <Toaster />
+            <PhoneFixed />
           </ThemeProvider>
         </NextIntlClientProvider>
       </body>

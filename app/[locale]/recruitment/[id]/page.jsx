@@ -1,3 +1,4 @@
+import GoogleCaptchaWrapper from "@/components/GoogleCaptchaWrapper";
 import Detail from "@/ui/recruitment/detail";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -17,8 +18,8 @@ export default async function Page({ params }) {
   }
 
   return (
-    <div>
-      <Detail id={id} />
-    </div>
+    <GoogleCaptchaWrapper>
+      <Detail />
+    </GoogleCaptchaWrapper>
   );
 }

@@ -21,12 +21,16 @@ import { applySchema } from "./schema";
 import { useToast } from "@/hooks/use-toast";
 import vi from "@/messages/vi.json";
 import { useParams } from "next/navigation";
-import { applyFormAction } from "../../../actions/apply";
+import { applyFormAction } from "../../../app/actions/apply";
+import { errorToast, successToast } from "@/utils/customToast";
+import { useGoogleReCaptcha } from "react-google-recaptcha-v3";
+import { verifyCaptcha } from "@/app/actions/verifyCaptcha";
 
 const DEFAULT_VALUES = { fullName: "", phoneNumber: "", email: "", dateOfBirth: "" };
 
 const DetailDialog = () => {
   const { toast } = useToast();
+  const { executeRecaptcha } = useGoogleReCaptcha();
   const params = useParams();
   const { id } = params;
   const t = useTranslations(`applyForm`);
@@ -49,7 +53,7 @@ const DetailDialog = () => {
   });
 
   const {
-    formState: { isSubmitted, isSubmitting, isSubmitSuccessful },
+    formState: { isSubmitted, isSubmitting },
     control,
     handleSubmit,
     reset,
@@ -78,59 +82,33 @@ const DetailDialog = () => {
   };
 
   const handleClose = () => {
-    console.log(123);
     if (isSubmitting) return;
-    reset(DEFAULT_VALUES);
+    reset(DEFAULT_VALUES, { keepIsSubmitted: false });
+    setAttachment(null);
     setOpen(false);
   };
 
   const onSubmit = async (values) => {
-    // "use server";
     try {
-      //   const { fullName, phoneNumber, email, dateOfBirth } = values;
-      //   const body = {
-      //     to: "thang111220@gmail.com",
-      //     subject: `${positionTitle} - ${fullName}`,
-      //     attachment,
-      //     body: `
-      //       <html>
-      //         <body>
-      //           <p>Họ và tên: ${fullName}</p>
-      //           <p>Số điện thoại: ${phoneNumber}</p>
-      //           <p>Email: ${email}</p>
-      //           <p>Ngày sinh: ${dateOfBirth}</p>
-      //           <p>Vị trí: ${positionTitle}</p>
-      //         </body>
-      //       </html>
-      //     `,
-      //   };
+      if (!executeRecaptcha) {
+        toast(errorToast({ title: "Recaptcha not available" }));
+        throw new Error("Recaptcha not available!");
+      }
 
-      //   const response = await fetch("/api/sendEmail", {
-      //     method: "POST",
-      //     headers: { "Content-Type": "application/json" },
-      //     body: JSON.stringify(body),
-      //   });
+      const gRecaptchaToken = await executeRecaptcha("submit_form");
+      const isVerify = verifyCaptcha(gRecaptchaToken);
 
-      const response = await applyFormAction(values, positionTitle);
+      if (!isVerify) {
+        toast(errorToast({ title: "Failed to verify recaptcha!" }));
+        throw new Error("Failed to verify recaptcha!");
+      }
+
+      const response = await applyFormAction(values, attachment, positionTitle);
 
       if (response.ok) {
         setAttachment(null);
         handleClose();
-        toast({
-          className: "bg-white text-black data-[state=open]:sm:slide-in-from-top-full top-0 sm:top-0 border-0",
-          title: (
-            <div className="flex items-center justify-center gap-2.5">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#52C41A" className="size-6">
-                <path
-                  fillRule="evenodd"
-                  d="M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12Zm13.36-1.814a.75.75 0 1 0-1.22-.872l-3.236 4.53L9.53 12.22a.75.75 0 0 0-1.06 1.06l2.25 2.25a.75.75 0 0 0 1.14-.094l3.75-5.25Z"
-                  clipRule="evenodd"
-                />
-              </svg>
-              <span className="font-normal text-body-lg">Apply successfully</span>
-            </div>
-          ),
-        });
+        toast(successToast({ title: "Applied successfully" }));
       } else {
         console.error("Error sending email:", response.statusText);
       }
@@ -139,16 +117,19 @@ const DetailDialog = () => {
     }
   };
 
-  useEffect(() => {
-    reset(DEFAULT_VALUES, { keepIsSubmitted: false });
-  }, [isSubmitSuccessful, reset]);
+  // useEffect(() => {
+  //   reset(DEFAULT_VALUES, { keepIsSubmitted: false });
+  // }, [isSubmitSuccessful, reset]);
 
   return (
     <Dialog
       open={open}
       onOpenChange={(open) => {
-        if (!open) reset();
-        setOpen(open);
+        if (!open) {
+          handleClose();
+        } else {
+          setOpen(open);
+        }
       }}
     >
       <DialogTrigger asChild>
