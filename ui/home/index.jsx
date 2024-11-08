@@ -12,7 +12,7 @@ const Homepage = () => {
     <div className="w-screen overflow-hidden">
       <div className="relative w-screen z-1">
         <div className="absolute inset-0 -z-20 bg-dark" />
-        <Image src="/images/home/hero-section.gif" alt="hero" fill className="-z-10" priority={true} />
+        <Image src="/images/home/hero-section.gif" alt="hero" fill className="-z-10" priority={true} unoptimized />
         <div className="w-full flex-center">
           <div className="page-layout">
             <HomeIntroduction />
