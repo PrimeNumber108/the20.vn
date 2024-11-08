@@ -10,7 +10,7 @@ const Contact = () => {
     <GoogleCaptchaWrapper>
       <div className="mt-[75px]">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d968.9767059469542!2d106.70282423432877!3d10.833208542848691!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3175296719155fb7%3A0xb84bb50b14412881!2zMjgxIELDrG5oIEzhu6NpLCBQaMaw4budbmcgMTMsIELDrG5oIFRo4bqhbmgsIEjhu5MgQ2jDrSBNaW5oIDcxNzcwMCwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1730884875871!5m2!1svi!2s"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d244.9193673764675!2d106.70293!3d10.8335!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752861cc8b48b3%3A0x862f968c9fb6083!2zQ8O0bmcgVHkgQ8O0zIkgUGjDosyAbiBUaGUyMA!5e0!3m2!1svi!2sus!4v1731053436496!5m2!1svi!2sus"
           width="600"
           height="450"
           allowFullScreen=""
