@@ -1,4 +1,4 @@
-import Square from "@/components/Square";
+import Square from "@/components/square";
 import { useTranslations } from "next-intl";
 import React from "react";
 

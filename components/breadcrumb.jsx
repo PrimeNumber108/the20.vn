@@ -1,5 +1,5 @@
 import React from "react";
-import Square from "./Square";
+import Square from "./square";
 import { cn } from "@/lib/utils";
 
 const Breadcrumb = ({ children, color = "#ffffff", classNames: { wrapper = "", square = "", body = "" } = {} }) => (
