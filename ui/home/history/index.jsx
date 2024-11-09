@@ -6,7 +6,7 @@ const History = () => {
   const tCommon = useTranslations("general.common");
   const t = useTranslations("home.history");
   return (
-    <div className="page-layout flex-center mt-[78px] mb-[115px]">
+    <div className="page-layout flex-center mt-[78px] mb-[115px] !px-0">
       <div className="max-w-[860px] bg-black py-12 px-[35px] flex flex-col gap-12 rounded-[12px]">
         <Breadcrumb classNames={{ square: "bg-tint20" }}>
           <p>

@@ -9,7 +9,7 @@ const Benefit = () => {
     <div className="py-[120px] flex-center">
       <div className="relative page-layout grid-layout">
         <div className="absolute w-[1481px] h-[1481px] top-[309px] rounded-full bg-radial-gradient -left-1/2 -z-10"></div>
-        <div className="col-span-10 col-start-2 space-y-[105px]">
+        <div className="grid-child-10 space-y-[105px]">
           <p className="font-semibold text-center text-body-lg">{t("title")}</p>
           <div className="flex flex-wrap justify-center gap-[32px]">
             {Array.from({ length: 5 }, (_, i) => (

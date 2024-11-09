@@ -9,7 +9,7 @@ const Product = () => {
   return (
     <div className="py-[62px] flex-center">
       <div className="page-layout grid-layout">
-        <div className="col-span-10 col-start-2 space-y-[64px]">
+        <div className="grid-child-10 space-y-[64px]">
           <Breadcrumb>
             <p className="text-heading-md">{t("breadcrumb")}</p>
           </Breadcrumb>

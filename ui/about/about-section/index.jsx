@@ -9,7 +9,7 @@ const AboutSection = () => {
     <div className="flex-center py-[120px]">
       <div className="page-layout">
         <div className="grid-layout">
-          <div className="col-span-10 col-start-2">
+          <div className="grid-child-10">
             <Breadcrumb classNames={{ square: "bg-tint20" }}>
               <p className="">{t("trans")}</p>
             </Breadcrumb>
@@ -17,7 +17,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="grid-layout">
-          <div className="col-span-10 col-start-2">
+          <div className="grid-child-10">
             <h2 className="text-display-sm">
               {t.rich("title", {
                 span: (chunks) => (

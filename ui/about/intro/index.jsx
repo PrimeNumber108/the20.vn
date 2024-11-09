@@ -9,7 +9,7 @@ const Intro = () => {
     <div className="py-[128px] flex-center relative">
       <Image src="/images/about/about-1.png" alt="hero" fill className="-z-10" priority={true} />
       <div className="page-layout grid-layout">
-        <div className="col-span-10 col-start-2 p-[100px] rounded-[20px] drop-shadow flex flex-col gap-10 bg-black">
+        <div className="grid-child-10 p-[100px] rounded-[20px] drop-shadow flex flex-col gap-10 bg-black">
           <h1 className="text-display-md">
             <span>{t("title")}</span>
             <br />

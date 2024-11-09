@@ -10,13 +10,17 @@ const HomeIntroduction = () => {
   return (
     <div className="mt-[160px] text-center flex-center flex-col space-y-10">
       <div className="grid-layout">
-        <div className="col-span-10 col-start-2">
+        <div className="grid-child-10">
           <h1 className="uppercase text-display-lg">The 20</h1>
-          <h2 className="text-display-lg">{t("title")}</h2>
+          <h2 className="text-display-lg">
+            {t.rich("title", {
+              span: (chunks) => <span className="block">{chunks}</span>,
+            })}
+          </h2>
         </div>
       </div>
       <div className="grid-layout">
-        <div className="col-span-8 col-start-3">
+        <div className="grid-child-8">
           <p className="text-body-lg">{t("desc")}</p>
         </div>
       </div>

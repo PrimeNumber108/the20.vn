@@ -118,10 +118,16 @@
     @apply text-[14px] leading-[140%] underline;
   }
   .page-layout {
-    @apply w-full max-w-[1440px] px-[120px];
+    @apply w-full max-w-[1440px] xl:px-[120px] px-5 md:px-[35px];
   }
   .grid-layout {
     @apply grid grid-cols-12 gap-8;
+  }
+  .grid-child-10 {
+    @apply col-span-12 col-start-1 lg:col-span-10 lg:col-start-2;
+  }
+  .grid-child-8 {
+    @apply col-span-10 col-start-2 lg:col-span-8 lg:col-start-3;
   }
   .flex-center {
     @apply flex items-center justify-center;

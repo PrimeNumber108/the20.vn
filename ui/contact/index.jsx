@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="overflow-hidden flex-center">
           <div className="relative page-layout grid-layout py-[115px]">
             <div className="absolute w-[1718px] h-[1718px] top-full -translate-y-1/2 rounded-full bg-radial-gradient left-full -translate-x-1/2 -z-10"></div>
-            <div className="col-span-10 col-start-2 space-y-[64px]">
+            <div className="grid-child-10 space-y-[64px]">
               <div className="space-y-8">
                 <p className="text-heading-md">{t("companyName")}</p>
                 <p className="text-display-sm">
@@ -60,8 +60,8 @@ const Contact = () => {
                         />
                       </svg>
                     </div>
-                    <Link href="mailto:analytics@the20.vn" className="text-body-md">
-                      analytics@the20.vn
+                    <Link href="mailto:hrsachicos@gmail.com" className="text-body-md">
+                      hrsachicos@gmail.com
                     </Link>
                   </div>
                   <div className="flex items-center gap-1.5">

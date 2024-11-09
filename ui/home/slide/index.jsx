@@ -36,7 +36,7 @@ const Slide = () => {
         className="object-cover mix-blend-hard-light"
       />
       <div className="page-layout grid-layout">
-        <div className="relative col-span-10 col-start-2">
+        <div className="relative grid-child-10">
           <Swiper
             className="relative"
             modules={[Navigation, Autoplay]}
