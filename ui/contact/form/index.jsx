@@ -73,27 +73,6 @@ export function ContactForm() {
 
   return (
     <Form {...form}>
-      <button
-        onClick={() =>
-          toast({
-            className: "bg-white text-black data-[state=open]:sm:slide-in-from-top-full top-0 sm:top-0 border-0",
-            title: (
-              <div className="flex items-center justify-center gap-2.5">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#FF4D4E" className="size-6">
-                  <path
-                    fillRule="evenodd"
-                    d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-1.72 6.97a.75.75 0 1 0-1.06 1.06L10.94 12l-1.72 1.72a.75.75 0 1 0 1.06 1.06L12 13.06l1.72 1.72a.75.75 0 1 0 1.06-1.06L13.06 12l1.72-1.72a.75.75 0 1 0-1.06-1.06L12 10.94l-1.72-1.72Z"
-                    clipRule="evenodd"
-                  />
-                </svg>
-                <span className="font-normal text-body-lg">Failed to verify recaptcha!</span>
-              </div>
-            ),
-          })
-        }
-      >
-        asdasd
-      </button>
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-8">
         <div className="grid grid-cols-2 gap-6">
           <div className="col-span-1 space-y-3">
