@@ -19,9 +19,9 @@ const Contact = () => {
           className="w-screen max-h-[618px]"
         ></iframe>
         <div className="overflow-hidden flex-center">
-          <div className="relative page-layout grid-layout py-[115px]">
+          <div className="relative page-layout grid-layout py-14 md:py-28">
             <div className="absolute w-[1718px] h-[1718px] top-full -translate-y-1/2 rounded-full bg-radial-gradient left-full -translate-x-1/2 -z-10"></div>
-            <div className="grid-child-10 space-y-[64px]">
+            <div className="space-y-8 md:space-y-16 grid-child-10">
               <div className="space-y-8">
                 <p className="text-heading-md">{t("companyName")}</p>
                 <p className="text-display-sm">
@@ -30,11 +30,11 @@ const Contact = () => {
                   })}
                 </p>
               </div>
-              <div className="flex gap-8">
+              <div className="flex flex-col gap-8 lg:flex-row">
                 <div className="flex-1">
                   <ContactForm />
                 </div>
-                <div className="w-[276px] space-y-6">
+                <div className="lg:w-[276px] space-y-6">
                   <p className="text-heading-md">{t("info.title")}</p>
                   <div className="flex items-center gap-1.5">
                     <div className="min-w-6">

@@ -8,7 +8,7 @@ const HomeIntroduction = () => {
   const tCommon = useTranslations("general.common");
 
   return (
-    <div className="mt-[160px] text-center flex-center flex-col space-y-10">
+    <div className="flex-col space-y-10 text-center flex-center">
       <div className="grid-layout">
         <div className="grid-child-10">
           <h1 className="uppercase text-display-lg">The 20</h1>
@@ -26,7 +26,7 @@ const HomeIntroduction = () => {
       </div>
       <div className="flex-center">
         <Link href="/about">
-          <Button variant="outline" size="lg">
+          <Button variant="outline">
             <span>{tCommon("about")}</span>
           </Button>
         </Link>

@@ -19,12 +19,12 @@ const Position = () => {
   }, []);
 
   return (
-    <div className="py-[120px] flex-center" ref={ref}>
+    <div className="py-14 md:py-32 flex-center" ref={ref}>
       <div className="relative page-layout grid-layout">
         <div className="absolute w-[1718px] h-[1718px] -bottom-1/2 rounded-full bg-radial-gradient -right-1/2 -z-10"></div>
-        <div className="grid-child-10 space-y-16">
+        <div className="space-y-16 grid-child-10">
           <Breadcrumb>{t("breadcrumb")}</Breadcrumb>
-          <div className="grid grid-cols-2 gap-x-8 gap-y-16">
+          <div className="grid md:grid-cols-2 gap-x-8 gap-y-16">
             {Array.from({ length: 5 }, (_, i) => (
               <div key={`recruitment-position-${i}`} className="col-span-1">
                 <PositionCard index={i} />

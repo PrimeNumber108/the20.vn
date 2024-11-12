@@ -13,7 +13,7 @@ const Homepage = () => {
       <div className="relative w-screen z-1">
         <div className="absolute inset-0 -z-20 bg-dark" />
         <Image src="/images/home/hero-section.gif" alt="hero" fill className="-z-10" priority={true} unoptimized />
-        <div className="w-full flex-center">
+        <div className="w-full flex-center py-[120px] md:py-[160px]">
           <div className="page-layout">
             <HomeIntroduction />
             <History />

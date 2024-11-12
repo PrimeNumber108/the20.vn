@@ -41,11 +41,11 @@ const Timeline = () => {
   }, [t, tCommon]);
 
   return (
-    <div className="relative flex-center">
+    <div className="relative px-6 flex-center xxl:p-0">
       <div className="absolute top-0 -translate-y-1/2 flex-center">
         <div className="w-[2095px] h-[267px] rounded-[2095px] bg-radial-gradient"></div>
       </div>
-      <div className="max-w-[1135px] my-[120px]">
+      <div className="max-w-[1135px] py-[80px] md:py-[120px]">
         <div className="flex flex-col">
           {timelines.map((timeline) => (
             <TimelineItem key={`timeline-${timeline.time}`} {...timeline} />

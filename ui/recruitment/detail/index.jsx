@@ -26,10 +26,10 @@ const Detail = () => {
   };
 
   return (
-    <div className="pt-[192px] pb-[123px] flex-center relative">
+    <div className="pt-28 pb-14 md:pt-[192px] md:pb-[123px] flex-center relative">
       <Image src="/images/recruitment/recruitment-2.png" alt="hero" fill className="-z-10" priority={true} />
       <div className="page-layout grid-layout">
-        <div className="grid-child-10 px-[100px] py-[60px] space-y-12 bg-black rounded-[20px] drop-shadow">
+        <div className="grid-child-10 p-[30px] md:px-[100px] md:py-[60px] space-y-8 md:space-y-12 bg-black rounded-[20px] drop-shadow">
           <div className="flex items-center gap-2 cursor-pointer" onClick={handleBack}>
             <ArrowLeft color="#3333FE" strokeWidth={2} />
             <p className="font-semibold text-tint20 text-body-md">{tPosition("positionDetail")}</p>

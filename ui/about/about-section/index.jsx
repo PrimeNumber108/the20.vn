@@ -6,14 +6,14 @@ const AboutSection = () => {
   const t = useTranslations("about.about");
 
   return (
-    <div className="flex-center py-[120px]">
+    <div className="flex-center py-20 md:py-[120px]">
       <div className="page-layout">
         <div className="grid-layout">
           <div className="grid-child-10">
             <Breadcrumb classNames={{ square: "bg-tint20" }}>
               <p className="">{t("trans")}</p>
             </Breadcrumb>
-            <div className="w-full h-[1px] bg-[#4f4f4f] mt-12 mb-[64px]"></div>
+            <div className="w-full h-[1px] bg-[#4f4f4f] my-10 md:mt-12 md:mb-[64px]"></div>
           </div>
         </div>
         <div className="grid-layout">
@@ -31,7 +31,7 @@ const AboutSection = () => {
           </div>
         </div>
         <div className="grid-layout mt-[50px]">
-          <div className="col-span-4 col-start-8">
+          <div className="col-span-12 md:col-span-4 md:col-start-8">
             <p className="text-body-lg">{t("desc")}</p>
           </div>
         </div>

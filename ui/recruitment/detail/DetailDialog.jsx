@@ -137,9 +137,9 @@ const DetailDialog = () => {
           <p className="text-heading-sm">{t("apply.now")}</p>
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[600px] bg-white text-black p-10 flex flex-col gap-8">
+      <DialogContent className="sm:max-w-[600px] bg-white text-black p-2.5 py-5 md:p-10 flex flex-col gap-8">
         <Form {...form}>
-          <form onSubmit={handleSubmit(onSubmit)} className="space-y-8 autofill-light">
+          <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 md:space-y-8 autofill-light">
             <DialogHeader>
               <DialogTitle className="flex items-center justify-between">
                 <span className="text-heading-md">{t("apply.detail")}</span>
@@ -154,7 +154,7 @@ const DetailDialog = () => {
               </DialogTitle>
               <DialogDescription></DialogDescription>
             </DialogHeader>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-2 gap-4 md:gap-6">
               <div className="col-span-1 space-y-3">
                 <FormField
                   control={control}
@@ -165,7 +165,7 @@ const DetailDialog = () => {
                       <FormControl>
                         <Input
                           placeholder={t("fullName.placeholder")}
-                          className="px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
+                          className="md:px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
                           {...field}
                         />
                       </FormControl>
@@ -184,7 +184,7 @@ const DetailDialog = () => {
                       <FormControl>
                         <Input
                           placeholder={t("phoneNumber.placeholder")}
-                          className="px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
+                          className="md:px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
                           {...field}
                         />
                       </FormControl>
@@ -203,7 +203,7 @@ const DetailDialog = () => {
                       <FormControl>
                         <Input
                           placeholder={t("email.placeholder")}
-                          className="px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
+                          className="md:px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
                           {...field}
                         />
                       </FormControl>
@@ -223,7 +223,7 @@ const DetailDialog = () => {
                         <FormControl>
                           <Input
                             placeholder={t("dateOfBirth.placeholder")}
-                            className="px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
+                            className="md:px-4 bg-white text-body-md py-2.5 h-auto focus-visible:ring-0 focus-visible:ring-offset-1 border-[#e2e2e2]"
                             {...field}
                           />
                         </FormControl>
@@ -254,7 +254,7 @@ const DetailDialog = () => {
                   {t("upload.label")}
                 </Label>
                 <div
-                  className="flex items-center justify-between gap-2 px-3 py-2 border rounded-md border-[#e2e2e2] cursor-pointer"
+                  className="flex items-center justify-between gap-2 px-3 py-2 border rounded-md border-[#e2e2e2] cursor-pointer !mt-2"
                   onClick={onClickUpload}
                 >
                   <Input

@@ -2,7 +2,14 @@ import React from "react";
 
 const Icon3 = () => {
   return (
-    <svg xmlns="http://www.w3.org/2000/svg" width="173" height="173" viewBox="0 0 173 173" fill="none">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      width="173"
+      height="173"
+      viewBox="0 0 173 173"
+      fill="none"
+      className="w-full"
+    >
       <rect x="0.5" y="0.5" width="172" height="172" rx="11.5" fill="url(#paint0_linear_34_130)" stroke="#414141" />
       <path
         fillRule="evenodd"

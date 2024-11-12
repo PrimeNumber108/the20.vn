@@ -2,7 +2,7 @@ import React from "react";
 
 const ArrowDown = () => {
   return (
-    <div className="absolute -z-10 top-0 left-[-1px]">
+    <div className="absolute -z-10 top-0 left-[-1px] md:opacity-100 opacity-0">
       <div className="flex-col flex-center">
         <div className="w-[1px] h-[170px] bg-[#747474] -mb-2"></div>
         <svg width="14" height="9" viewBox="0 0 18 9" fill="none" xmlns="http://www.w3.org/2000/svg">

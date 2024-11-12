@@ -47,7 +47,8 @@
     --muted-foreground: 240 5% 64.9%;
     --accent: 240 3.7% 15.9%;
     --accent-foreground: 0 0% 98%;
-    --destructive: 0 62.8% 30.6%;
+    /* --destructive: 0 62.8% 30.6%; */
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
@@ -72,35 +73,35 @@
 
 @layer utilities {
   .text-display-lg {
-    @apply text-[72px] font-semibold leading-[140%];
+    @apply font-semibold leading-[140%] xxl:text-[72px] md:text-[52px] text-[36px];
     font-family: var(--font-display);
   }
   .text-display-md {
-    @apply text-[60px] font-medium leading-[120%];
+    @apply font-medium leading-[120%] xxl:text-[60px] md:text-[44px] text-[34px];
     font-family: var(--font-display);
   }
   .text-display-sm {
-    @apply text-[48px] font-semibold leading-[120%];
+    @apply font-semibold leading-[120%] xxl:text-[46px] md:text-[36px] text-[32px];
     font-family: var(--font-display);
   }
   .text-heading-xl {
-    @apply text-[32px] font-semibold leading-[120%];
+    @apply font-semibold leading-[120%] xxl:text-[32px] text-[24px];
     font-family: var(--font-display);
   }
   .text-heading-lg {
-    @apply text-[28px] font-semibold leading-[120%];
+    @apply font-semibold leading-[120%] xxl:text-[28px] text-[22px];
     font-family: var(--font-display);
   }
   .text-heading-md {
-    @apply text-[24px] font-semibold leading-[120%];
+    @apply font-semibold leading-[120%] xxl:text-[24px] md:text-[22px] text-[20px];
     font-family: var(--font-display);
   }
   .text-heading-sm {
-    @apply text-[20px] font-semibold leading-[120%];
+    @apply font-semibold leading-[120%] xxl:text-[20px] text-[18px];
     font-family: var(--font-display);
   }
   .text-body-lg {
-    @apply text-[18px] leading-[140%];
+    @apply leading-[140%] xxl:text-lg text-base;
   }
   .text-body-md {
     @apply text-[16px] leading-[140%];
@@ -109,7 +110,7 @@
     @apply text-[14px] leading-[140%];
   }
   .text-link-lg {
-    @apply text-[18px] leading-[140%] underline;
+    @apply leading-[140%] underline text-[18px];
   }
   .text-link-md {
     @apply text-[16px] leading-[140%] underline;
@@ -118,7 +119,7 @@
     @apply text-[14px] leading-[140%] underline;
   }
   .page-layout {
-    @apply w-full max-w-[1440px] xl:px-[120px] px-5 md:px-[35px];
+    @apply w-full max-w-[1440px] xxl:px-[120px] px-5 md:px-[35px];
   }
   .grid-layout {
     @apply grid grid-cols-12 gap-8;

@@ -6,7 +6,7 @@ import Process from "./process";
 
 const Recruitment = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <Intro />
       <Benefit />
       <Position />
