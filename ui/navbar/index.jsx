@@ -18,7 +18,7 @@ const Navbar = () => {
   return (
     <div
       className={clsx(
-        "fixed top-0 z-[9999] transition-all flex-center h-[75px] w-screen",
+        "fixed top-0 z-40 transition-all flex-center h-[75px] w-screen",
         pathname === "/contact" || scroll.y > 75 ? "bg-black" : "bg-transparent"
         // (scroll.y < 75 || scroll.y - scroll.lastY <= 0) && "translate-y-0"
       )}

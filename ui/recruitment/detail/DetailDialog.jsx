@@ -137,7 +137,7 @@ const DetailDialog = () => {
           <p className="text-heading-sm">{t("apply.now")}</p>
         </Button>
       </DialogTrigger>
-      <DialogContent className="sm:max-w-[600px] bg-white text-black p-2.5 py-5 md:p-10 flex flex-col gap-8">
+      <DialogContent className="w-[98%] sm:max-w-[600px] bg-white text-black p-4 py-5 md:p-10 flex flex-col gap-8 rounded-lg">
         <Form {...form}>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-6 md:space-y-8 autofill-light">
             <DialogHeader>
