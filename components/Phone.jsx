@@ -6,7 +6,13 @@ const PhoneFixed = () => {
   return (
     <div className="fixed z-30 cursor-pointer right-1 md:right-0 bottom-20">
       <Link href="tel:0833800110">
-        <Image className="hidden md:block" src="/images/logo/phone.png" width={191} height={52} alt="phone" />
+        <Image
+          className="hidden md:block w-[191px] h-[52px]"
+          src="/images/logo/phone.png"
+          width={191}
+          height={52}
+          alt="phone"
+        />
 
         <div className="md:hidden block w-[44px] h-[44px] bg-shade60 flex-center rounded-full border-[4px] border-white z-30 drop-shadow-light">
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="29" viewBox="0 0 21 29" fill="none">
