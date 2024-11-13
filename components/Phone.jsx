@@ -7,10 +7,10 @@ const PhoneFixed = () => {
     <div className="fixed z-30 cursor-pointer right-1 md:right-0 bottom-20">
       <Link href="tel:0833800110">
         <Image
-          className="hidden md:block w-[191px] h-[52px]"
+          className="hidden md:block w-[191px]"
           src="/images/logo/phone.png"
-          width={191}
-          height={52}
+          width={422}
+          height={144}
           alt="phone"
         />
 
