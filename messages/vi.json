@@ -12,7 +12,7 @@
   "home": {
     "intro": {
       "title": "CÔNG TY CỔ PHẦN <span>THƯƠNG MẠI BÁN LẺ</span>",
-      "desc": "Tại The20, chúng tôi cam kết mang đến những giá trị sản phẩm và dịch vụ tốt nhất cho khách hàng, cả trong và ngoài nước. Với đội ngũ tư vấn chuyên nghiệp, chúng tôi luôn sẵn sàng đồng hành cùng bạn để bạn tự tin tỏa sáng mỗi ngày."
+      "desc": "Tại The20, chúng tôi cam kết mang đến những giá trị sản phẩm và dịch vụ tốt nhất cho khách hàng, cả trong và ngoài nước."
     },
     "history": {
       "breadcrumb": "Lịch sử hình thành The20",
@@ -31,15 +31,13 @@
       "1": {
         "title": "Mở rộng thị trường và đa dạng hóa sản phẩm",
         "desc": {
-          "0": "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới.",
-          "1": "Phát triển dòng sản phẩm skincare và chăm sóc tóc: Đáp ứng nhu cầu đa dạng của khách hàng, công ty không ngừng nghiên cứu và cho ra mắt các sản phẩm mới, chất lượng cao."
+          "0": "Xâm nhập thị trường quốc tế: Công ty bắt đầu xuất khẩu sản phẩm sang các nước trong khu vực và trên thế giới, mở ra cơ hội phát triển mới."
         }
       },
       "2": {
-        "title": "Tích hợp công nghệ, dẫn đầu xu hướng thương mại điện tử",
+        "title": "Phát triển CNTT",
         "desc": {
-          "0": "Thành công vang dội với livestream: Các buổi livestream bán hàng đạt doanh thu khủng, khẳng định sức hút của thương hiệu, được nhiều beauty blogger, KOLs nổi tiếng như Ngọc Trinh, Chảnh Beauty, Hannaholala,... tin dùng và giới thiệu.",
-          "1": "Chiếm lĩnh thị phần đáng kể: Với hơn 100.000 sản phẩm được bán ra mỗi tháng, công ty đã chiếm 28,5% tổng doanh thu ngành mỹ phẩm Việt Nam, trở thành một trong những thương hiệu mỹ phẩm hàng đầu."
+          "0": "Thông qua phát triển CNTT mạnh mẽ, đặc biệt là tích hợp AI vào nhiều lĩnh vực công việc, The20 đã duy trì vai trò dẫn đầu trong môi trường kinh doanh."
         }
       }
     },

@@ -12,7 +12,7 @@
   "home": {
     "intro": {
       "title": "JOINT STOCK COMPANY",
-      "desc": "At The 20, we are committed to bringing the best product and service values ​​to customers, both domestic and foreign. With a team of professional consultants, we are always ready to accompany you so you can confidently shine every day"
+      "desc": "At The 20, we are committed to bringing the best product and service values ​​to customers, both domestic and foreign."
     },
     "history": {
       "breadcrumb": "Welcome to The20",
@@ -31,15 +31,13 @@
       "1": {
         "title": "Market expansion and product diversification",
         "desc": {
-          "0": "Expanding into international markets: The company began exporting products to countries in the region and around the world, opening up new development opportunities.",
-          "1": "Diversifying product lines: Developing skincare and hair care product lines to meet the diverse needs of customers, the company constantly researches and launches new, high-quality products."
+          "0": "Expanding into international markets: The company began exporting products to countries in the region and around the world, opening up new development opportunities."
         }
       },
       "2": {
-        "title": "Integrating technology, leading e-commerce trends",
+        "title": "IT development",
         "desc": {
-          "0": "Revolutionizing sales with livestreaming: Resounding success with livestream sales sessions achieved huge revenue, affirming the brand's appeal. Trusted and recommended by many famous beauty bloggers and KOLs such as Ngoc Trinh, Chanh Beauty, Hannaholala,...",
-          "1": "Capturing a significant market share: With more than 100,000 products sold each month, the company has accounted for 28.5% of the total revenue of the Vietnamese cosmetics industry, becoming one of the leading cosmetic brands."
+          "0": "Through rigorous IT development, especially AI integration into various fields of work, The20 manage to maintain a leading role in the business environment"
         }
       }
     },

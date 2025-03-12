@@ -16,13 +16,13 @@ const Homepage = () => {
         <div className="w-full flex-center py-[120px] md:py-[160px]">
           <div className="page-layout">
             <HomeIntroduction />
-            <History />
+            {/* <History /> */}
           </div>
         </div>
       </div>
       <Timeline />
-      <Brand />
-      <Slide />
+      {/* <Brand /> */}
+      {/* <Slide /> */}
       <CoreValues />
     </div>
   );
